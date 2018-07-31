@@ -2202,6 +2202,16 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
  			'data-placement'=> 'top'
  		)
  	);
+
+     $fullpage = html_writer::link('#!', '<i class="fa fa-arrows-alt"></i>',
+         array(
+             'title' => s(get_string('highcontrast', 'icontent')),
+             'class'=>'icon icon-highcontrast togglehighcontrast',
+             'data-toggle'=> 'tooltip',
+             'data-placement'=> 'top'
+         )
+     );
+
  	$update = false;
  	$new = false;
  	$addquestion = false;
@@ -2263,7 +2273,7 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
 		 }
 	}
 	// Make toolbar
-	$toolbar = html_writer::tag('div', $highcontrast. $comments. $displayed. $addquestion. $update. $new, array('class'=>'toolbarpage '));
+	$toolbar = html_writer::tag('div', $fullpage. $highcontrast. $comments. $displayed. $addquestion. $update. $new, array('class'=>'toolbarpage '));
 	// Return toolbar
  	return $toolbar;
  }
