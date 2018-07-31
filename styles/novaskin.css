@@ -293,7 +293,8 @@ div#idicontentpages {
 }
 
 
-div#idicontentbuttonbar [title="Página anterior"] {
+/*div#idicontentbuttonbar [title="Página anterior"] */
+.full-paging-buttonbar button.load-page.btn-previous-page{
     border: solid 1px yellow!important;
     position: absolute;
 	background: rgba(17,119,209,.5);
@@ -301,12 +302,13 @@ div#idicontentbuttonbar [title="Página anterior"] {
     left: -75px;
     padding: .5em;
 }
-div#idicontentbuttonbar [title="Página anterior"]:hover {
+.full-paging-buttonbar button.load-page.btn-previous-page:hover {
     background: rgba(91,192,222,.5)!important;
 }
 
 
-div#idicontentbuttonbar [title="Próxima página"] {
+/*div#idicontentbuttonbar [title="Próxima página"]*/ 
+.full-paging-buttonbar button.load-page.btn-next-page{
     border: solid 1px yellow!important;
     position: absolute;
     background: rgba(17,119,209,.5);
@@ -314,12 +316,12 @@ div#idicontentbuttonbar [title="Próxima página"] {
     right: -75px;
     padding: .5em;
 }
-div#idicontentbuttonbar [title="Próxima página"]:hover {
+.full-paging-buttonbar button.load-page.btn-next-page:hover {
     background: rgba(91,192,222,.5)!important;
 }
 
 
-button.load-page.btn-icontent-page {
+ button.load-page.btn-icontent-page {
     border: solid 1px lightblue;
     margin-right: 3px;
     background-color: rgba(17,119,209,.5);
