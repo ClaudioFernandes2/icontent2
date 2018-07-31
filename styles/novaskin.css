@@ -150,7 +150,7 @@ div#fgroup_id_buttonar {
 #fgroup_id_buttonar .btn-previous-page {
     display: inline-block!important;
     border: solid 1px red;
-   	background-image: url("../mod/icontent/pix/prev2.png")!important;/*--Observar o nome e extensão da imagem--*/
+   	background-image: url("../pix/prev2.png")!important;/*--Observar o nome e extensão da imagem--*/
 	text-indent: -900000px!important;
     height: 70px!important;
     background-size: 135px!important;
@@ -171,7 +171,7 @@ div#fgroup_id_buttonar {
 
 #fgroup_id_buttonar .btn-next-page {
     border: solid 1px blue!important;
-    background-image: url("../mod/icontent/pix/next2.png")!important;/*--Observar o nome e extensão da imagem--*/ 
+    background-image: url("../pix/next2.png")!important;/*--Observar o nome e extensão da imagem--*/ 
     text-indent: -900000px!important;
     height: 70px!important;
     -webkit-background-size: 135px!important;
