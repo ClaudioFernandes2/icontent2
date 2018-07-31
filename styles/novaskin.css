@@ -150,7 +150,7 @@ div#fgroup_id_buttonar {
 #fgroup_id_buttonar .btn-previous-page {
     display: inline-block!important;
     border: solid 1px red;
-   	background: url(http://127.0.0.1/ead35/mod/icontent/pix/prev2.png)!important;/*--Observar o nome e extensão da imagem--*/
+   	background-image: url("../mod/icontent/pix/prev2.png")!important;/*--Observar o nome e extensão da imagem--*/
 	text-indent: -900000px!important;
     height: 70px!important;
     background-size: 135px!important;
@@ -171,7 +171,7 @@ div#fgroup_id_buttonar {
 
 #fgroup_id_buttonar .btn-next-page {
     border: solid 1px blue!important;
-    background: url(http://127.0.0.1/ead35/mod/icontent/pix/next2.png)!important;/*--Observar o nome e extensão da imagem--*/ 
+    background-image: url("../mod/icontent/pix/next2.png")!important;/*--Observar o nome e extensão da imagem--*/ 
     text-indent: -900000px!important;
     height: 70px!important;
     -webkit-background-size: 135px!important;
@@ -331,7 +331,7 @@ button.load-page.btn-icontent-page {
 }
 
 icontent-buttonbar button {
-	margin-right: 0px!importan;
+	margin-right: 0px!important;
 	background-color: rgba(17,119,209,.5);
 	border: none;
     padding: 0.5em;
@@ -392,7 +392,7 @@ div#idtabicontent {
 }
 
 .col-md-1.userpicture {
-    max-width: initial;
+    max-width: inherit!important;
 }
 
 textarea#idcommentnote, textarea#idcommentdoubt {
@@ -510,6 +510,7 @@ em.noteon {
 /************************* fim de mudar barra de rolagem**************************/
 
 
+/************Estilo para o Container de Vídeo *****************/
 
 /*----Video JS para 3 colunas ----*/
 .page-layout columns-3 .video-js .vjs-big-play-button {
@@ -536,6 +537,8 @@ em.noteon {
 }
 
 /*----Fim do Video Js----*/
+
+/************Fim do Estilo para o Container de Vídeo *****************/
 
 
 
