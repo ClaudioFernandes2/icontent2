@@ -199,9 +199,14 @@ div#idicontentpages {
 /*----Páginas de Capa-----*/
 
 /*Serve para forçar o scroll quando o botão leia mais for clicado*/
-.path-mod-icontent .contentcoverpage {
+/*.path-mod-icontent .contentcoverpage {
     overflow-y: scroll;
     max-height: 358px;
+}*/
+
+.contentcoverpage p.read-more-wrap {
+    max-height: 256px;
+    overflow-y: scroll;
 }
 
 
