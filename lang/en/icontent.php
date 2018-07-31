@@ -168,6 +168,7 @@ $string['msgconfirmdeleteattempt'] = '<i class="fa fa-exclamation-triangle"></i>
 $string['msgstatusdisplay'] = 'You can not add or remove questions because attempts have been recorded.';
 $string['page'] = '<span>Page <em>{$a}</em></span>';
 $string['highcontrast'] = 'highcontrast';
+$string['fullpage'] = 'Full Page Mode';
 $string['comments'] = 'Comments';
 $string['doubts'] = 'Questions';
 $string['mylistcomments'] = 'My list of comments';

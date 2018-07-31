@@ -171,6 +171,7 @@ $string['collumns4'] = 'Até quatro colunas';
 $string['collumns5'] = 'Até cinco colunas';
 $string['page'] = '<span>Página <em>{$a}</em></span>';
 $string['highcontrast'] = 'Alto contraste';
+$string['fullpage'] = 'Modo Tela Cheia';
 $string['comments'] = 'Anotações';
 $string['doubts'] = 'Dúvidas';
 $string['mylistcomments'] = 'Minha lista de anotações';
