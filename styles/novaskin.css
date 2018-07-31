@@ -68,7 +68,7 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
 	border-radius: inherit;
-	-webkit-moz-border-radius: inherit;
+	-webkit-moz-border-radius: inherit; C
 
 }
 
@@ -165,7 +165,8 @@ div#fgroup_id_buttonar {
       background-position: -97px!important;
 }*/
 #fgroup_id_buttonar  .btn-previous-page:hover {
-      background-position: -97px!important;
+    background-position: -97px!important;	
+	background-color: inherit!important;
 }
  
 
@@ -188,6 +189,7 @@ div#fgroup_id_buttonar {
 }*/
 #fgroup_id_buttonar .btn-next-page:hover {
 	background-position: -36px!important;
+	background-color: inherit!important;
 }
 
 /*------------Fim de Avançar e Voltar------------------*/
