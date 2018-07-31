@@ -2205,7 +2205,7 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
 
      $fullpage = html_writer::link('#!', '<i class="fa fa-arrows-alt"></i>',
          array(
-             'title' => s(get_string('highcontrast', 'icontent')),
+             'title' => s(get_string('fullpage', 'icontent')),
              'class'=>'icon icon-highcontrast togglehighcontrast',
              'data-toggle'=> 'tooltip',
              'data-placement'=> 'top'
