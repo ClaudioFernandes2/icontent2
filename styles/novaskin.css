@@ -460,14 +460,17 @@ em.noteon {
 /*-------Para definir o título das colunas---------*/
 
 .page-layout.columns-1 h3, .page-layout.columns-2 h3, .page-layout.columns-3 h3, .page-layout.columns-4 h3, .page-layout.columns-5 h3{
-   border: solid 1px red;
    -webkit-column-span: all;
 	column-span: all;
 	font-weight: bold;
 	
 }
 
-
+.page-layout.columns-1 h4, .page-layout.columns-1 h5, .page-layout.columns-1 h6, .page-layout.columns-2 h4, .page-layout.columns-2 h5, .page-layout.columns-2 h6, .page-layout.columns-3 h4, .page-layout.columns-3 h5, .page-layout.columns-3 h6, .page-layout.columns-4 h4, .page-layout.columns-4 h5, .page-layout.columns-4 h6, .page-layout.columns-5 h4, .page-layout.columns-5 h5, .page-layout.columns-5 h6{
+	
+	border: solid 1px red;
+	font-weight: bold;
+}
 
 
 
