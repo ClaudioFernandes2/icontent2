@@ -450,7 +450,7 @@ em.noteon {
 
 .progress {
     position: relative;
-    top: -35px;
+    top: 10px;
     display: flex;
     height: .6rem;
     overflow: hidden;
