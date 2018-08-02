@@ -302,7 +302,8 @@ div#idicontentpages {
     position: absolute;
     background: rgba(17,119,209,.5);
     min-height: 100%;
-    right: -75px;
+	min-width: 80px;
+    right: -85px;
     padding: .5em;
 }
 .full-paging-buttonbar button.load-page.btn-next-page:hover {
