@@ -406,7 +406,7 @@ textarea#idcommentnote, textarea#idcommentdoubt {
 }
 
 .buttonscomment {
-   	border: solid 1px green;
+   	/*border: solid 1px green;*/
 	margin-left: 2.0em;
 }
 .buttonscomment button {
@@ -439,7 +439,9 @@ em.noteon {
     padding: .8em;
 }
 
-
+.level-1 {
+    background-color: #ecf9b2!important;
+}
 
 
 
