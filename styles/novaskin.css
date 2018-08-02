@@ -138,7 +138,7 @@ div#fgroup_id_buttonar {
     background-repeat: no-repeat!important;
     background-position: 3px!important;
     min-width: 40px!important;
-    z-index: 99999!important;
+    
 }
 
 /*#fgroup_id_buttonar  .btn-previous-page:focus{
@@ -162,7 +162,7 @@ div#fgroup_id_buttonar {
     background-repeat: no-repeat!important;
     background-position: 0px!important;
     min-width: 40px!important;
-    z-index: 99999!important;
+    
 }
 
 /*#fgroup_id_buttonar .btn-next-page:focus{
