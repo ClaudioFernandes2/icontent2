@@ -429,7 +429,7 @@ em.noteon {
     min-height: 450px!important;
     max-height: 451px!important;
     overflow-y: scroll!important;
-    z-index: 99999999999!important;
+    z-index: 998!important;
 }
 
 
