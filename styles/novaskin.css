@@ -347,7 +347,7 @@ icontent-buttonbar button {
     position: relative;
     text-align: right;
     top: 5px;
-    z-index: 99999;
+    z-index: 998;
 }
 
 
