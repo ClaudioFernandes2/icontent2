@@ -356,7 +356,7 @@ icontent-buttonbar button {
 div#idnotesarea {
     position: absolute;
     max-width: 50%;
-    z-index: 999999999999;
+    z-index: 998;
 }
 
 div#idfulltab {
