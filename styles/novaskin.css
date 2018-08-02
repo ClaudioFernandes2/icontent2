@@ -272,7 +272,7 @@ div#idicontentpages {
     text-align: center;
     position: relative!important;
     margin: 0 auto;
-    z-index: 999;
+    z-index: 997;
     max-width: 44%;
     border: solid 1px red;
     display: flex;
