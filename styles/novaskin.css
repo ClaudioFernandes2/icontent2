@@ -549,20 +549,34 @@ em.noteon {
 
 /************Estilo para o Container de Vídeo *****************/
 
+
+.video-js .vjs-big-play-button {
+    width: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    
+}
+
+
+
+
+
 /*----Video JS para 3 colunas ----*/
-.page-layout columns-3 .video-js .vjs-big-play-button {
+/*.page-layout columns-3 .video-js .vjs-big-play-button {
     position: absolute;
     top: 38%;
     left: 38%;
     width: 25%;
     height: 25%;
 }
-
+*/
 
 /*----Video JS para 4 colunas ----*/
 
-.mediaplugin.mediaplugin_videojs {
-    /*max-width: 100%;*/
+/*.mediaplugin.mediaplugin_videojs {
+    /*max-width: 100%; 
 }
 
 .page-layout columns-3 .video-js .vjs-big-play-button {
@@ -572,7 +586,7 @@ em.noteon {
     width: 35%;
     height: 35%;
 }
-
+*/
 /*----Fim do Video Js----*/
 
 /************Fim do Estilo para o Container de Vídeo *****************/
