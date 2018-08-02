@@ -371,7 +371,7 @@ div#idfulltab {
     background-color: #f5f5f5;
     z-index: 9999;
     padding: 1.1em;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 20px 20px 20px;
 }
 
 div#idtabicontent {
