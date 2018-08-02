@@ -195,6 +195,7 @@ div#idicontentpages {
     z-index: 99;
     background-repeat: no-repeat;
     background-size: cover;
+	min-height: 690px;
 }
 
 /*----Páginas de Capa-----*/
