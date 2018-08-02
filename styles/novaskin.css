@@ -439,10 +439,16 @@ em.noteon {
     padding: .8em;
 }
 
-.level-1 {
-    background-color: #ecf9b2!important;
+.level-2 {
+    background-color: #fdfdbd!important;
 }
 
+.level-3 {
+    background-color: #f5e685!important;
+}
+.level-4 {
+    background-color: #f5e685c2!important;
+}
 
 
 
