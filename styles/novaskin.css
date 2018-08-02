@@ -395,6 +395,13 @@ textarea#idcommentnote, textarea#idcommentdoubt {
     max-width: 98%;
 }
 
+.buttonscomment {
+   color: #373a3c;
+   padding-right: 0.5em;
+   border: solid 1px green;
+}
+
+
 .path-mod-icontent .icontent-page .notesarea .notelist .noterowicontent .notefooter a {
     cursor: pointer;
     padding-right: .8em;
