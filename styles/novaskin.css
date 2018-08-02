@@ -207,8 +207,11 @@ div#idicontentpages {
 }*/
 
 .contentcoverpage p.read-more-wrap {
+	position: relative;
     max-height: 256px;
     overflow-y: scroll;
+	z-index: 998;
+
 }
 
 
