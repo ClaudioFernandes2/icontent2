@@ -271,7 +271,6 @@ div#idicontentpages {
     text-align: center;
     position: relative!important;
     margin: 0 auto;
-    top: -24px;
     z-index: 999;
     max-width: 44%;
     border: solid 1px red;
