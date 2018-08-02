@@ -144,6 +144,7 @@ div#fgroup_id_buttonar {
 /*#fgroup_id_buttonar  .btn-previous-page:focus{
       background-position: -97px!important;
 }*/
+
 #fgroup_id_buttonar  .btn-previous-page:hover {
     background-position: -97px!important;	
 	background-color: inherit!important;
@@ -168,7 +169,7 @@ div#fgroup_id_buttonar {
       background-position: -36px!important;
 }*/
 #fgroup_id_buttonar .btn-next-page:hover {
-	background-position: -36px!important;
+	background-position: -45px!important;
 	background-color: inherit!important;
 }
 
