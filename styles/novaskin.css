@@ -34,41 +34,41 @@ admin .buttons:before, #fitem_id_submitbutton:before, .fp-content-center form + 
 #fgroup_id_buttonar:before, table#form td.submit:after, .form-buttons:after, .path-admin .buttons:after, #fitem_id_submitbutton:after, .fp-content-
 
 center form + div:after, div.backup-section + form:after, #fgroup_id_buttonar:after {
-    display: flex;
+    display: flex!important;
     content: none!important;
-    line-height: 0;
+    line-height: 0!important;
 }
 
 .buttons, #fitem_id_submitbutton, .fp-content-center form + div, div.backup-section + form, #fgroup_id_buttonar {
-    padding: inherit;
+    padding: inherit!important;
     margin: initial!important;
-    background-color: inherit;
-    border-top: inherit;
-    padding-left: inherit;
-	display:inherit;
-    line-height: inherit;
-    text-align: inherit;
-    vertical-align: inherit;
+    background-color: inherit!important;
+    border-top: inherit!important;
+    padding-left: inherit!important;
+	display:inherit!important;
+    line-height: inherit!important;
+    text-align: inherit!important;
+    vertical-align: inherit!important;
 	
 }
 
 button {
-    display: inline-block;
-    background: inherit;
-    border: none;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: pointer;
-    text-align: center;
+    display: inline-block!important;
+    background: inherit!important;
+    border: none!important;
+    padding: 0!important;
+    margin: 0!important;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    font-family: inherit!important;
+    font-size: inherit!important;
+    cursor: pointer!important;
+    text-align: center!important;
     /*transition: background 250ms ease-in-out, transform 150ms ease;*/
-    -webkit-appearance: none;
-    -moz-appearance: none;
-	border-radius: inherit;
-	-webkit-moz-border-radius: inherit; C
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+	border-radius: inherit!important;
+	-webkit-moz-border-radius: inherit!important;
 
 }
 
@@ -97,8 +97,8 @@ button {
 
 .fulltextpage {
     float: none!important;
-    background-size: contain;
-    background-repeat-y: no-repeat;
+    background-size: contain!important;
+    background-repeat-y: no-repeat!important;
 }
 
 section.agrupar {
@@ -118,12 +118,12 @@ div#idicontentpages {
 
 div#fgroup_id_buttonar {
     width: 100%!important;
-    position: relative;
+    position: relative!important;
     display: flex!important;
-    justify-content: space-between;
+    justify-content: space-between!important;
 	border: solid 1px green!important;
-	margin: 0 auto;
-    top: 390px;
+	margin: 0 auto!important;
+    top: 390px!important;
     /*z-index: -99;*/
 }
 
@@ -162,7 +162,7 @@ div#fgroup_id_buttonar {
     background-repeat: no-repeat!important;
     background-position: 0px!important;
     min-width: 40px!important;
-	width: 40px;
+	width: 40px!important;
     
 }
 
@@ -273,28 +273,28 @@ div#idicontentpages {
 
 
 .path-mod-icontent .full-paging-buttonbar {
-    text-align: center;
+    text-align: center!important;
     position: relative!important;
-    margin: 0 auto;
-    z-index: 997;
-    max-width: 44%;
+    margin: 0 auto!important;
+    z-index: 997!important;
+    max-width: 44%!important;
     border: solid 1px red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+    align-items: center!important;
 }
 
 
 /*div#idicontentbuttonbar [title="Página anterior"] */
 .full-paging-buttonbar button.load-page.btn-previous-page{
     border: solid 1px yellow!important;
-    position: absolute;
-	background: rgba(17,119,209,.5);
-    min-height: 100%;
-	min-width: 72px;
-    left: -75px;
-    padding: .5em;
+    position: absolute!important;
+	background: rgba(17,119,209,.5)!important;
+    min-height: 100%!important;
+	min-width: 72px!important;
+    left: -75px!important;
+    padding: .5em!important;
 }
 .full-paging-buttonbar button.load-page.btn-previous-page:hover {
     background: rgba(91,192,222,.5)!important;
@@ -304,12 +304,12 @@ div#idicontentpages {
 /*div#idicontentbuttonbar [title="Próxima página"]*/ 
 .full-paging-buttonbar button.load-page.btn-next-page{
     border: solid 1px yellow!important;
-    position: absolute;
-    background: rgba(17,119,209,.5);
-    min-height: 100%;
-	min-width: 72px;
-    right: -77px;
-    padding: .5em;
+    position: absolute!important;
+    background: rgba(17,119,209,.5)!important;
+    min-height: 100%!important;
+	min-width: 72px!important;
+    right: -77px!important;
+    padding: .5em!important;
 }
 .full-paging-buttonbar button.load-page.btn-next-page:hover {
     background: rgba(91,192,222,.5)!important;
@@ -317,31 +317,31 @@ div#idicontentpages {
 
 
  button.load-page.btn-icontent-page {
-    border: solid 1px lightblue;
-    margin-right: 3px;
-    background-color: rgba(17,119,209,.5);
-    padding: .2em;
-    color: #fff;
-    min-width: 1.8em;
-    min-height: 2em;
-    margin-top: .4em;
+    border: solid 1px lightblue!important;
+    margin-right: 3px!important;
+    background-color: rgba(17,119,209,.5)!important;
+    padding: .2em!important;
+    color: #fff!important;
+    min-width: 1.8em!important;
+    min-height: 2em!important;
+    margin-top: .4em!important;
 }
 
 icontent-buttonbar button {
 	margin-right: 0px!important;
-	background-color: rgba(17,119,209,.5);
-	border: none;
-    padding: 0.5em;
-    color: #fff;
+	background-color: rgba(17,119,209,.5)!important;
+	border: none!important;
+    padding: 0.5em!important;
+    color: #fff!important;
 }
 
 
 .path-mod-icontent .full-paging-buttonbar .active {
-    background-color: rgba(55,58,60,.5);
-    color: #fff;
-    font-weight: bolder;
-    text-shadow: 3px 1px 2px #999;
-    padding: 0.4em 0.2em;
+    background-color: rgba(55,58,60,.5)!important;
+    color: #fff!important;
+    font-weight: bolder!important;
+    text-shadow: 3px 1px 2px #999!important;
+    padding: 0.4em 0.2em!important;
 }
 
 /*----Fim de Navegação pelas páginas----*/
@@ -408,11 +408,11 @@ textarea#idcommentnote, textarea#idcommentdoubt {
 
 .buttonscomment {
    	/*border: solid 1px green;*/
-	margin-left: 2.0em;
+	margin-left: 2.0em!important;
 }
 .buttonscomment button {
     color: #373a3c;
-    padding: 0 0.5em;
+    padding: 0 0.5em!important;
     /* border: solid 1px #1177d1; */
 }
 
@@ -551,43 +551,14 @@ em.noteon {
 
 
 .video-js .vjs-big-play-button {
-    width: 2em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25px 0 0 -25px;
+    width: 2em!important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    margin: -25px 0 0 -25px!important;
     
 }
 
-
-
-
-
-/*----Video JS para 3 colunas ----*/
-/*.page-layout columns-3 .video-js .vjs-big-play-button {
-    position: absolute;
-    top: 38%;
-    left: 38%;
-    width: 25%;
-    height: 25%;
-}
-*/
-
-/*----Video JS para 4 colunas ----*/
-
-/*.mediaplugin.mediaplugin_videojs {
-    /*max-width: 100%; 
-}
-
-.page-layout columns-3 .video-js .vjs-big-play-button {
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    width: 35%;
-    height: 35%;
-}
-*/
-/*----Fim do Video Js----*/
 
 /************Fim do Estilo para o Container de Vídeo *****************/
 
