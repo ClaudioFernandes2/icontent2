@@ -64,7 +64,7 @@ button {
     font-size: inherit!important;
     cursor: pointer!important;
     text-align: center!important;
-    /*transition: background 250ms ease-in-out, transform 150ms ease;*/
+    transition:inherit!important;
     -webkit-appearance: none!important;
     -moz-appearance: none!important;
 	border-radius: inherit!important;
