@@ -360,6 +360,11 @@ icontent-buttonbar button {
 
 
 /*----Área de Perguntas----*/
+.path-mod-icontent .notesarea .titlenotes {
+    max-width: 300px!important;
+}
+
+
 div#idnotesarea {
     position: absolute;
     max-width: 50%;
