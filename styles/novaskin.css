@@ -214,8 +214,11 @@ div#idicontentpages {
 	z-index: 998;
 
 }
-
-
+/*Serve para elevar o botão leia mais*/
+.state-readmore {
+    position: relative;
+    z-index: 996;
+}
 
 
 
