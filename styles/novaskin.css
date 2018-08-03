@@ -102,14 +102,14 @@ button {
 }
 
 section.agrupar {
-    border: solid 1px blue;
+    /*border: solid 1px blue;*/
     width: 80%;
     margin: 0 auto;
 }
 
 
 div#idicontentpages {
-	    border: solid 1px green;
+	    /*border: solid 1px green;*/
 	
 }
 
@@ -121,7 +121,7 @@ div#fgroup_id_buttonar {
     position: relative!important;
     display: flex!important;
     justify-content: space-between!important;
-	border: solid 1px green!important;
+	/*border: solid 1px green!important;*/
 	margin: 0 auto!important;
     top: 390px!important;
     /*z-index: -99;*/
@@ -130,7 +130,7 @@ div#fgroup_id_buttonar {
 
 #fgroup_id_buttonar .btn-previous-page {
     display: inline-block!important;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
    	background-image: url("../pix/prev2.png")!important;/*--Observar o nome e extensão da imagem--*/
 	text-indent: -900000px!important;
     height: 70px!important;
@@ -153,7 +153,7 @@ div#fgroup_id_buttonar {
 
 
 #fgroup_id_buttonar .btn-next-page {
-    border: solid 1px blue!important;
+    /*border: solid 1px blue!important;*/
     background-image: url("../pix/next2.png")!important;/*--Observar o nome e extensão da imagem--*/ 
     text-indent: -900000px!important;
     height: 70px!important;
@@ -242,7 +242,7 @@ div#idicontentpages {
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     text-align: right;
     position: relative;
-    top: 30px;
+    top: 35px;
     z-index: 999;
 }
 .toolbarpage .icon {
@@ -281,7 +281,7 @@ div#idicontentpages {
     margin: 0 auto!important;
     z-index: 997!important;
     max-width: 44%!important;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     display: flex!important;
     flex-wrap: wrap!important;
     justify-content: center!important;
@@ -291,7 +291,7 @@ div#idicontentpages {
 
 /*div#idicontentbuttonbar [title="Página anterior"] */
 .full-paging-buttonbar button.load-page.btn-previous-page{
-    border: solid 1px yellow!important;
+    /*border: solid 1px yellow!important;*/
     position: absolute!important;
 	background: rgba(17,119,209,.5)!important;
     min-height: 100%!important;
@@ -306,7 +306,7 @@ div#idicontentpages {
 
 /*div#idicontentbuttonbar [title="Próxima página"]*/ 
 .full-paging-buttonbar button.load-page.btn-next-page{
-    border: solid 1px yellow!important;
+    /*border: solid 1px yellow!important;*/
     position: absolute!important;
     background: rgba(17,119,209,.5)!important;
     min-height: 100%!important;
@@ -320,7 +320,7 @@ div#idicontentpages {
 
 
  button.load-page.btn-icontent-page {
-    border: solid 1px lightblue!important;
+    /*border: solid 1px lightblue!important;*/
     margin-right: 3px!important;
     background-color: rgba(17,119,209,.5)!important;
     padding: .2em!important;
@@ -484,7 +484,7 @@ em.noteon {
 
 .page-layout.columns-1 h4, .page-layout.columns-1 h5, .page-layout.columns-1 h6, .page-layout.columns-2 h4, .page-layout.columns-2 h5, .page-layout.columns-2 h6, .page-layout.columns-3 h4, .page-layout.columns-3 h5, .page-layout.columns-3 h6, .page-layout.columns-4 h4, .page-layout.columns-4 h5, .page-layout.columns-4 h6, .page-layout.columns-5 h4, .page-layout.columns-5 h5, .page-layout.columns-5 h6{
 	
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 	font-weight: bold;
 }
 
@@ -519,7 +519,7 @@ em.noteon {
     display: block;
     width: 70%;
     margin: 0 auto!important;
-    border: solid 1px pink;
+    /*border: solid 1px pink;*/
     z-index: -1;
 }
 
@@ -587,6 +587,7 @@ em.noteon {
     border-color: #0038a8 #0038a8 #001e5c!important;
     border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25)!important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false)!important;
+	padding: 0.5em!important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
@@ -626,7 +627,6 @@ em.noteon {
 
 
 /*---------------------Fim do Estilo Responsivo------------------------*/
-
 
 
 
