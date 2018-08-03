@@ -226,7 +226,7 @@ div#idicontentpages {
     padding: 16px 42px;
     z-index: 99;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover!important;
 	min-height: 690px!important;
 }
 
