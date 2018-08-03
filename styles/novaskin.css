@@ -420,7 +420,7 @@ textarea#idcommentnote, textarea#idcommentdoubt {
 	margin-left: 2.0em!important;
 }
 .buttonscomment button {
-    color: #373a3c;
+    color: #373a3c!important;
     padding: 0 0.5em!important;
     /* border: solid 1px #1177d1; */
 }
