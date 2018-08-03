@@ -141,9 +141,10 @@ div#fgroup_id_buttonar {
     
 }
 
-/*#fgroup_id_buttonar  .btn-previous-page:focus{
-      background-position: -97px!important;
-}*/
+#fgroup_id_buttonar  .btn-previous-page:focus{
+      outline: none!important;
+}
+
 
 #fgroup_id_buttonar  .btn-previous-page:hover {
     background-position: -97px!important;	
@@ -166,9 +167,9 @@ div#fgroup_id_buttonar {
     
 }
 
-/*#fgroup_id_buttonar .btn-next-page:focus{
-      background-position: -36px!important;
-}*/
+#fgroup_id_buttonar .btn-next-page:focus{
+      outline: none!important;
+}
 #fgroup_id_buttonar .btn-next-page:hover {
 	background-position: -45px!important;
 	background-color: inherit!important;
@@ -381,7 +382,7 @@ div#idfulltab {
     z-index: 9999;
     padding: 1.1em;
     border-radius: 0 20px 20px 20px;
-	width: 55%;
+	width: 550px;
 }
 
 div#idtabicontent {
