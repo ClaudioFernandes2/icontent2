@@ -234,14 +234,14 @@ div#idicontentpages {
 
 /*Serve para forçar o scroll quando o botão leia mais for clicado*/
 /*.path-mod-icontent .contentcoverpage {
-    overflow-y: scroll;
+    overflow: scroll;
     max-height: 358px;
 }*/
 
 .contentcoverpage p.read-more-wrap {
 	position: relative;
     max-height: 256px;
-    overflow-y: scroll;
+    overflow: auto;
 	z-index: 998;
 
 }
@@ -501,7 +501,7 @@ em.noteon {
 	position: relative!important;
     min-height: 450px!important;
     max-height: 451px!important;
-    overflow-y: scroll!important;
+    overflow: auto!important;
     z-index: 998!important;
 }
 
