@@ -29,6 +29,9 @@ garantindo o ajuste para o estilo responsivo aqui configurado.
 /*---------------------Reset CSS---------------------------*/
 
 
+
+
+
 admin .buttons:before, #fitem_id_submitbutton:before, .fp-content-center form + div:before, div.backup-section + form:before, 
 
 #fgroup_id_buttonar:before, table#form td.submit:after, .form-buttons:after, .path-admin .buttons:after, #fitem_id_submitbutton:after, .fp-content-
@@ -660,7 +663,7 @@ em.noteon {
 }
 	
 	section.agrupar {
-	position: absolute!important;
+	position: relative!important;
 	top:0!important;
     border: solid 1px red!important;
     width: 100%!important;
