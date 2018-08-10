@@ -103,8 +103,8 @@ button {
 
 section.agrupar {
     /*border: solid 1px blue;*/
-    width: 80%;
-    margin: 0 auto;
+    width: 80%!important;
+    margin: 0 auto!important;
 }
 
 
@@ -639,6 +639,194 @@ em.noteon {
 /*-------------------------------Orientação Retrato----*/
 
 
+/*------largura até 600px----*/
+@media (max-width: 600px), screen and (orientation: portrait) {  
+	
+	header#page-header {
+    display: none;
+}
+	
+	#maincontent h2 {
+    border: solid 1px red!important;
+}
+	
+	#region-main>.card, #page-enrol-users #region-main>#filterform, .que #region-main>.history, .userprofile .profile_tree #region-main>section, #region-main>.groupinfobox, #region-main>.well {
+    overflow: initial;
+	}
+	
+
+	.card-body {
+    padding: 0!important;
+}
+	
+	section.agrupar {
+	position: absolute!important;
+	top:0!important;
+    border: solid 1px red!important;
+    width: 100%!important;
+    margin: 0 auto!important;
+}
+
+	.fulltextpage.coverpage {
+    max-height: 525px;
+}
+
+
+.path-mod-icontent .full-paging-buttonbar {
+	display:none!important;
+	
+	
+	
+	}
+	
+	.path-mod-icontent .icontent-page .fulltextpage {
+   /*padding: inherit!important;*/
+  		 min-height: inherit!important;
+		 /*margin-top: 28%!important;*/
+		padding: 16px 15px!important;
+		
+}
+	
+	
+
+	
+.path-mod-icontent .icontent-page .fulltextpage p {
+    /*padding: 0 22px!important;*/
+	text-indent: initial!important;
+}	
+	
+	.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
+    top: 0px!important;
+    padding-right: 25px!important;
+}
+
+.path-mod-icontent .icontent-page .fulltextpage .toolbarpage .icon {
+    color: rgba(17,119,209,.5)!important;
+}
+	
+.toolbarpage .icon:hover {
+    color: #add!important;
+}
+	
+
+	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
+		
+		top:0!important;
+				
+		
+	}
+	
+	.path-mod-icontent .headercoverpage, .path-mod-icontent .contentcoverpage {
+    width: 100%!important;
+    }
+	
+	.path-mod-icontent .contentcoverpage {
+    
+    padding: 1em 0.5em!important;
+    
+}
+	
+	
+	
+/*----Área de texto----*/
+	
+
+	
+	
+.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
+    position: relative!important;
+    min-height: 365px!important;
+    max-height: 370px!important;
+    overflow: auto!important;
+    z-index: 998!important;
+}	
+	
+	
+	
+	
+	
+/*----Fim da Área de texto----*/	
+	
+	
+/*----Avançar e voltar----*/		
+	
+	div#fgroup_id_buttonar {
+    top: 325px!important;
+    
+}
+	
+/*----Fim de Avançar e voltar----*/
+	
+	
+	
+	
+
+	
+.progress {
+    display:none!important;
+}	
+	.path-mod-icontent .icontent-page .pagenum  {
+		top: 8px!important;
+		
+	}
+	
+	.path-mod-icontent .icontent-page .pagenum span {
+   top: 0px!important;
+}
+	
+	
+/*----Área de Perguntas----*/
+	
+	div#idnotesarea {
+		position:absolute!important;
+    	min-width: 300px!important;
+   		 z-index: 998!important;
+    	left: 10px!important;
+    	top: 648px!important;
+}
+	
+		
+	div#idfulltab {
+    padding: 0.1em;
+    border-radius: 0 0 20px 20px;
+    /*width: 550px;*/
+}	
+
+div#idtabicontent {
+    width: 100%!important;
+}
+	
+	
+	
+	
+.path-mod-icontent .icontent-page .notesarea .notelist .pagenoterow {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 0px 30px 6px!important;
+}	
+.path-mod-icontent .notesarea #note .fields span {
+    margin-right: 3px;
+}
+	
+/*----Área de Perguntas----*/	
+	
+	
+	#fgroup_id_buttonar .btn-previous-page, #fgroup_id_buttonar .btn-next-page {
+
+    z-index: 999!important;
+}
+
+
+	
+	
+	
+	
+	
+}
+
+
 
 
 
@@ -649,6 +837,21 @@ em.noteon {
 
 
 /*-----------------------------Orientação Paisagem----*/
+
+/*------largura até 600px----*/
+@media (min-width: 600px) and (orientation: landscape) {
+
+	section.agrupar {
+    /*border: solid 1px blue;*/
+    width: 100%;
+    margin: 0 auto;
+}
+	
+
+
+
+
+}
 
 
 
