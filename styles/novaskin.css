@@ -86,7 +86,10 @@ button {
 
 
 
-
+.pt-3, .py-3 {
+    padding-top: inherit;
+    border: solid 2px darkgreen;
+}
 
 
 [role='main'] {
@@ -673,10 +676,16 @@ em.noteon {
     width: 100%!important;
     margin: 0 auto!important;
 }
+	
+	
 
 	.fulltextpage.coverpage {
     max-height: 525px;
 }
+	
+	.path-mod-icontent .headercoverpage {
+    padding: unset;
+	}
 
 
 .path-mod-icontent .full-paging-buttonbar {
