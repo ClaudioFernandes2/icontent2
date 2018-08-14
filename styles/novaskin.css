@@ -686,8 +686,14 @@ em.noteon {
 	.path-mod-icontent .headercoverpage {
     padding: unset;
 	}
+	
+	.path-mod-icontent .icontent-page .row {
+    padding: 0 25%!important;
+    text-align: center!important;
+}
 
 
+	
 .path-mod-icontent .full-paging-buttonbar {
 	display:none!important;
 	
