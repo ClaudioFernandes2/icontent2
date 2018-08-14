@@ -28,6 +28,10 @@ garantindo o ajuste para o estilo responsivo aqui configurado.
 
 /*---------------------Reset CSS---------------------------*/
 
+html {
+    width: initial!important;
+}
+
 
 
 
