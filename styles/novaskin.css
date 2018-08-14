@@ -829,7 +829,7 @@ div#idtabicontent {
     padding: 5px 0px 30px 6px!important;
 }	
 .path-mod-icontent .notesarea #note .fields span {
-    margin-right: 3px;
+    margin-right: 1.0em;
 }
 	
 /*----Área de Perguntas----*/	
