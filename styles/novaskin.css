@@ -87,8 +87,8 @@ button {
 
 
 .pt-3, .py-3 {
-    padding-top: inherit;
-    border: solid 2px darkgreen;
+    padding-top: inherit!important;
+    /* border: solid 2px darkgreen; */
 }
 
 
