@@ -670,11 +670,11 @@ em.noteon {
 }
 	
 	section.agrupar {
-	position: relative!important;
-	top:0!important;
-    border: solid 1px red!important;
+    position: relative!important;
+    /* border: solid 1px red!important; */
     width: 100%!important;
     margin: 0 auto!important;
+    padding-bottom: 2.5em!important;
 }
 	
 	
