@@ -105,6 +105,15 @@ button {
     background-size: cover!important;
 }
 
+.contentcoverpage p {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 36px!important;
+    color: #555;
+    justify-content: space-around;
+}
+
 .fulltextpage {
     float: none!important;
     background-size: contain!important;
