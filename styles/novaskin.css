@@ -1,25 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/*---------------------Recomendação---------------------------
+
+Páginas otimizadas para uma variedade de dispositivos devem incluir uma tag meta viewport no cabeçalho do documento. Uma tag meta viewport instrui o navegador como controlar o tamanho e o dimensionamento da página.
+
+Caso o tema escolhido não tenha por padrão definido você deve iserir  a meta tag:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+em : 
+/admin/category.php?category=appearance
+
+na seção:
+additionalhtmlhead
+
+garantindo o ajuste para o estilo responsivo aqui configurado.
+
+
+
+---------------------Recomendação---------------------------*/
+
+
+
+
+
 /*---------------------Reset CSS---------------------------*/
 
+html {
+    width: initial!important;
+}
 
-admin .buttons:before, #fitem_id_submitbutton:before, .fp-content-center form + div:before, div.backup-section + form:before, #fgroup_id_buttonar:before, table#form td.submit:after, .form-buttons:after, .path-admin .buttons:after, #fitem_id_submitbutton:after, .fp-content-center form + div:after, div.backup-section + form:after, #fgroup_id_buttonar:after {
-    display: flex;
+
+
+
+
+admin .buttons:before, #fitem_id_submitbutton:before, .fp-content-center form + div:before, div.backup-section + form:before, 
+
+#fgroup_id_buttonar:before, table#form td.submit:after, .form-buttons:after, .path-admin .buttons:after, #fitem_id_submitbutton:after, .fp-content-
+
+center form + div:after, div.backup-section + form:after, #fgroup_id_buttonar:after {
+    display: flex!important;
     content: none!important;
-    line-height: 0;
+    line-height: 0!important;
 }
 
 .buttons, #fitem_id_submitbutton, .fp-content-center form + div, div.backup-section + form, #fgroup_id_buttonar {
-    padding: inherit;
+    padding: inherit!important;
     margin: initial!important;
-    background-color: inherit;
-    border-top: inherit;
-    padding-left: inherit;
-	display:inherit;
-    line-height: inherit;
-    text-align: inherit;
-    vertical-align: inherit;
+    background-color: inherit!important;
+    border-top: inherit!important;
+    padding-left: inherit!important;
+	display:inherit!important;
+    line-height: inherit!important;
+    text-align: inherit!important;
+    vertical-align: inherit!important;
 	
 }
 
@@ -35,32 +71,13 @@ button {
     font-size: inherit;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, transform 150ms ease;
+    transition:inherit;
     -webkit-appearance: none;
     -moz-appearance: none;
 	border-radius: inherit;
 	-webkit-moz-border-radius: inherit;
+
 }
-
-button:hover,
-button:focus {
-    background: #0053ba;
-}
-
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-button:active {
-    transform: scale(0.99);
-}
-
-
-
-
-
-
 
 
 /*---------------------Fim do Reset CSS---------------------------*/
@@ -69,7 +86,10 @@ button:active {
 
 
 
-
+.pt-3, .py-3 {
+    padding-top: inherit!important;
+    /* border: solid 2px darkgreen; */
+}
 
 
 [role='main'] {
@@ -87,78 +107,112 @@ button:active {
 
 .fulltextpage {
     float: none!important;
-    background-size: contain;
-    background-repeat-y: no-repeat;
+    background-size: contain!important;
+    background-repeat-y: no-repeat!important;
 }
 
 section.agrupar {
-    border: solid 1px blue;
-    width: 80%;
-    margin: 0 auto;
+    /*border: solid 1px blue;*/
+    width: 80%!important;
+    margin: 0 auto!important;
 }
 
 
 div#idicontentpages {
-	    border: solid 1px green;
+	    /*border: solid 1px green;*/
 	
 }
 
 
 /*------------Avançar e Voltar------------------*/
 
+
+div#fgroup_id_buttonar button {
+
+
+display: inline-block!important;
+    background: inherit!important;
+    border: none!important;
+    padding: 0!important;
+    margin: 0!important;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    font-family: inherit!important;
+    font-size: inherit!important;
+    cursor: pointer!important;
+    text-align: center!important;
+    transition:inherit!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+	border-radius: inherit!important;
+	-webkit-moz-border-radius: inherit!important;	
+
+}
+
+
+
+
+
+
 div#fgroup_id_buttonar {
+	
+	 	
     width: 100%!important;
-    position: relative;
+    position: relative!important;
     display: flex!important;
-    justify-content: space-between;
-	border: solid 1px green!important;
-	margin: 0 auto;
-    top: 390px;
+    justify-content: space-between!important;
+	/*border: solid 1px green!important;*/
+	margin: 0 auto!important;
+    top: 390px!important;
     /*z-index: -99;*/
 }
 
 
 #fgroup_id_buttonar .btn-previous-page {
     display: inline-block!important;
-    border: solid 1px red;
-   /* float: Left!important;*/
-	background: url(http://127.0.0.1/ead35/mod/icontent/pix/prev2.png)!important;/*--Observar o nome e extensão da imagem--*/
+    /*border: solid 1px red;*/
+   	background-image: url("../pix/prev2.png")!important;/*--Observar o nome e extensão da imagem--*/
 	text-indent: -900000px!important;
     height: 70px!important;
     background-size: 135px!important;
     background-repeat: no-repeat!important;
-    background-position: -95px!important;
+    background-position: 3px!important;
     min-width: 40px!important;
-    z-index: 99999!important;
+    
 }
 
 #fgroup_id_buttonar  .btn-previous-page:focus{
-      background-position: -95px!important;
+      outline: none!important;
 }
+
+
 #fgroup_id_buttonar  .btn-previous-page:hover {
-      background-position: -1px!important;
+    background-position: -97px!important;	
+	background-color: inherit!important;
 }
  
 
 
 #fgroup_id_buttonar .btn-next-page {
-    border: solid 1px blue!important;
-    background: url(http://127.0.0.1/ead35/mod/icontent/pix/next2.png)!important;/*--Observar o nome e extensão da imagem--*/ 
+    /*border: solid 1px blue!important;*/
+    background-image: url("../pix/next2.png")!important;/*--Observar o nome e extensão da imagem--*/ 
     text-indent: -900000px!important;
     height: 70px!important;
     -webkit-background-size: 135px!important;
     background-size: 135px!important;
     background-repeat: no-repeat!important;
-    background-position: 0!important;
-    min-width: 30px!important;
-    z-index: 99999!important;
+    background-position: 0px!important;
+    min-width: 40px!important;
+	width: 40px!important;
+    
 }
 
 #fgroup_id_buttonar .btn-next-page:focus{
-      background-position: -47px!important;
+      outline: none!important;
 }
 #fgroup_id_buttonar .btn-next-page:hover {
 	background-position: -45px!important;
+	background-color: inherit!important;
 }
 
 /*------------Fim de Avançar e Voltar------------------*/
@@ -181,7 +235,36 @@ div#idicontentpages {
     word-spacing: .3px;
     padding: 16px 42px;
     z-index: 99;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+	min-height: 690px!important;
 }
+
+/*----Páginas de Capa-----*/
+
+/*Serve para forçar o scroll quando o botão leia mais for clicado*/
+/*.path-mod-icontent .contentcoverpage {
+    overflow: scroll;
+    max-height: 358px;
+}*/
+
+.contentcoverpage p.read-more-wrap {
+	position: relative;
+    max-height: 256px;
+    overflow: auto;
+	z-index: 998;
+
+}
+/*Serve para elevar o botão leia mais*/
+.state-readmore {
+    position: relative;
+    z-index: 996;
+}
+
+
+
+
+/*----Fim de Páginas de Capa-----*/
 
 /*----título do slide-----*/
 .path-mod-icontent .icontent-page .fulltextpage h3.pagetitle {
@@ -200,7 +283,7 @@ div#idicontentpages {
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     text-align: right;
     position: relative;
-    top: 30px;
+    top: 35px;
     z-index: 999;
 }
 .toolbarpage .icon {
@@ -216,139 +299,208 @@ div#idicontentpages {
 /*----fim do título do slide-----*/
 
 /*----Numeração da página----*/
+
 .path-mod-icontent .icontent-page .pagenum span {
-margin-right: -17px;
-border: none;
-padding: 10px 70px;
-font-weight: 700;
-font-size: 12px;
-background-color: rgba(17,119,209,.5);
-color: #fff;
+    position: relative;
+    margin-right: -17px;
+    border: none;
+    padding: 10px 70px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgba(17,119,209,.5);
+    color: #fff;
+    top: 80px;
 }
 /*----Fim da Numeração da página----*/
+
 /*----Navegação pelas páginas----*/
+
+
 .path-mod-icontent .full-paging-buttonbar {
-text-align: center;
-position: relative;
-top: 618px;
-z-index: 999;
-max-width: 40%;
-margin: 0 auto;
-border: solid 1px red;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+    text-align: center!important;
+    position: relative!important;
+    margin: 0 auto!important;
+    z-index: 997!important;
+    max-width: 44%!important;
+    /*border: solid 1px red;*/
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+    align-items: center!important;
 }
-div#idicontentbuttonbar [title="Página anterior"] {
-border: solid 1px yellow!important;
-position: absolute;
-min-height: 100%;
-left: -75px;
-padding: .5em;
+
+
+/*div#idicontentbuttonbar [title="Página anterior"] */
+.full-paging-buttonbar button.load-page.btn-previous-page{
+    /*border: solid 1px yellow!important;*/
+    position: absolute!important;
+	background: rgba(17,119,209,.5)!important;
+    min-height: 100%!important;
+	min-width: 72px!important;
+    left: -75px!important;
+    padding: .5em!important;
+	margin: 0 -0.5em!important;
 }
-div#idicontentbuttonbar [title="Próxima página"] {
-border: solid 1px yellow!important;
-position: absolute;
-min-height: 100%;
-right: -75px;
-padding: .5em;
+.full-paging-buttonbar button.load-page.btn-previous-page:hover {
+    background: rgba(91,192,222,.5)!important;
 }
-button.load-page.btn-icontent-page {
-border: solid 1px lightblue;
-margin-right: 3px;
-background-color: rgba(17,119,209,.5);
-padding: .2em;
-color: #fff;
-min-width: 1.8em;
-min-height: 2em;
-margin-top: .4em;
+
+
+/*div#idicontentbuttonbar [title="Próxima página"]*/ 
+.full-paging-buttonbar button.load-page.btn-next-page{
+    /*border: solid 1px yellow!important;*/
+    position: absolute!important;
+    background: rgba(17,119,209,.5)!important;
+    min-height: 100%!important;
+	min-width: 72px!important;
+    right: -77px!important;
+    padding: .5em!important;
 }
+.full-paging-buttonbar button.load-page.btn-next-page:hover {
+    background: rgba(91,192,222,.5)!important;
+}
+
+
+ button.load-page.btn-icontent-page {
+    /*border: solid 1px lightblue!important;*/
+    margin-right: 3px!important;
+    background-color: rgba(17,119,209,.5)!important;
+    padding: .2em!important;
+    color: #fff!important;
+    min-width: 1.8em!important;
+    min-height: 2em!important;
+    margin-top: .4em!important;
+}
+
 icontent-buttonbar button {
-margin-right: 3px;
-background-color: rgba(17,119,209,.5);
-border: none;
-padding: 0.5em;
-color: #fff;
+	margin-right: 0px!important;
+	background-color: rgba(17,119,209,.5)!important;
+	border: none!important;
+    padding: 0.5em!important;
+    color: #fff!important;
 }
+
+
 .path-mod-icontent .full-paging-buttonbar .active {
-background-color: rgba(55,58,60,.5);
-color: #fff;
-font-weight: bolder;
-text-shadow: 3px 1px 2px #999;
-padding: 0.4em 0.2em;
+    background-color: rgba(55,58,60,.5)!important;
+    color: #fff!important;
+    font-weight: bolder!important;
+    text-shadow: 3px 1px 2px #999!important;
+    padding: 0.4em 0.2em!important;
 }
+
 /*----Fim de Navegação pelas páginas----*/
 
+/*----Númeração dasPáginas----*/
+.path-mod-icontent .icontent-page .pagenum {
+    position: relative;
+    text-align: right;
+    top: 5px;
+    z-index: 998;
+}
 
-/*----Navegação pelas páginas----*/
 
 
-.path-mod-icontent .full-paging-buttonbar {
-    text-align: center;
-    position: relative!important;
-    margin: 0 auto;
-    top: -55px;
-    z-index: 999;
-    max-width: 40%;
-    border: solid 1px red;
+/*----Área de Perguntas----*/
+.path-mod-icontent .notesarea .titlenotes {
+    max-width: 300px!important;
+}
+
+
+div#idnotesarea {
+    position: absolute;
+    max-width: 50%;
+    z-index: 998;
+}
+
+div#idfulltab {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top: -10px;
+    /* border: solid 1px orange; */
+    background-color: #f5f5f5;
+    z-index: 9999;
+    padding: 1.1em;
+    border-radius: 0 20px 20px 20px;
+	width: 550px;
 }
 
-
-div#idicontentbuttonbar [title="Página anterior"] {
-    border: solid 1px yellow!important;
-    position: absolute;
-    min-height: 100%;
-    left: -75px;
-    padding: .5em;
-}
-
-
-div#idicontentbuttonbar [title="Próxima página"] {
-    border: solid 1px yellow!important;
-    position: absolute;
-    min-height: 100%;
-    right: -75px;
-    padding: .5em;
-}
-
-
-button.load-page.btn-icontent-page {
-    border: solid 1px lightblue;
-    margin-right: 3px;
-    background-color: rgba(17,119,209,.5);
-    padding: .2em;
-    color: #fff;
-    min-width: 1.8em;
-    min-height: 2em;
-    margin-top: .4em;
-}
-
-icontent-buttonbar button {
-    margin-right: 3px;
-    background-color: rgba(17,119,209,.5);
-    border: none;
+div#idtabicontent {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    /* border: solid 1px #bbb; */
     padding: 0.5em;
-    color: #fff;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    top: -3px;
+    width: 90%;
 }
 
-
-.path-mod-icontent .full-paging-buttonbar .active {
-    background-color: rgba(55,58,60,.5);
-    color: #fff;
-    font-weight: bolder;
-    text-shadow: 3px 1px 2px #999;
-    padding: 0.4em 0.2em;
+.col-md-1.userpicture {
+    max-width: inherit!important;
 }
 
-/*----Fim de Navegação pelas páginas----*/
+textarea#idcommentnote, textarea#idcommentdoubt {
+    min-width: 96%;
+    max-width: 98%;
+}
 
+.notecomment {
+    display: flex;
+    flex-flow: column;
+}
 
+.replynotecomment {
+    min-width: 60%;
+    margin-left: 2.0em;
+}
 
+.buttonscomment {
+   	/*border: solid 1px green;*/
+	margin-left: 2.0em!important;
+}
+.buttonscomment button {
+    color: #373a3c!important;
+    padding: 0 0.5em!important;
+    /* border: solid 1px #1177d1; */
+}
+
+.path-mod-icontent .icontent-page .notesarea .notelist .noterowicontent .notefooter a {
+    cursor: pointer;
+    padding-right: .8em;
+}
+
+.path-mod-icontent .icontent-page .notesarea .notelist .noterowicontent .notefooter .notedate, .path-mod-icontent .icontent-page .notesarea .notelist .noterowicontent .notefooter a {
+    color: #0070a8;
+    font-size: 12px;
+}
+
+.path-mod-icontent .icontent-page .notesarea .notelist .pagenoterow {
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+span.notedate.pull-right {
+    position: relative;
+    top: -8px;
+}
+
+em.noteon {
+    padding: .8em;
+}
+
+.level-2 {
+    background-color: #fdfdbd!important;
+}
+
+.level-3 {
+    background-color: #f5e685!important;
+}
+.level-4 {
+    background-color: #f5e685c2!important;
+}
 
 
 
@@ -356,13 +508,27 @@ icontent-buttonbar button {
 /*-----------------divisão em colunas-----------*/
 
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
+	position: relative!important;
     min-height: 450px!important;
     max-height: 451px!important;
-    overflow-x: scroll!important;
-    z-index: 99999999999!important;
+    overflow: auto!important;
+    z-index: 998!important;
 }
 
+/*-------Para definir o título das colunas---------*/
 
+.page-layout.columns-1 h3, .page-layout.columns-2 h3, .page-layout.columns-3 h3, .page-layout.columns-4 h3, .page-layout.columns-5 h3{
+   -webkit-column-span: all;
+	column-span: all;
+	font-weight: bold;
+	
+}
+
+.page-layout.columns-1 h4, .page-layout.columns-1 h5, .page-layout.columns-1 h6, .page-layout.columns-2 h4, .page-layout.columns-2 h5, .page-layout.columns-2 h6, .page-layout.columns-3 h4, .page-layout.columns-3 h5, .page-layout.columns-3 h6, .page-layout.columns-4 h4, .page-layout.columns-4 h5, .page-layout.columns-4 h6, .page-layout.columns-5 h4, .page-layout.columns-5 h5, .page-layout.columns-5 h6{
+	
+	/*border: solid 1px red;*/
+	font-weight: bold;
+}
 
 
 
@@ -378,14 +544,30 @@ icontent-buttonbar button {
 
 /*--------------------------------Fim do Conteúdo-----------------------------*/
 
+.progress {
+    position: relative;
+    top: 10px;
+    display: flex;
+    height: .6rem;
+    overflow: hidden;
+    font-size: .703125rem;
+    background-color: #e9ecef;
+}
+
 .m-t-2, .m-y-2 {
+    position: absolute;
+    top: 1135px;
     text-align: center;
     display: block;
-    position: absolute;
-    width: 90%;
-    bottom: 0;
-    margin: 0 auto;
-    border: solid 1px pink;
+    width: 70%;
+    margin: 0 auto!important;
+    /*border: solid 1px pink;*/
+    z-index: -1;
+}
+
+.progress .progress-bar .sr-only {
+    position: relative;
+    top: -6px;
 }
 
 
@@ -414,3 +596,297 @@ icontent-buttonbar button {
 }
 
 /************************* fim de mudar barra de rolagem**************************/
+
+
+/************Estilo para o Container de Vídeo *****************/
+
+
+.video-js .vjs-big-play-button {
+    width: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    
+}
+
+/************Fim do Estilo para o Container de Vídeo *****************/
+
+
+
+.btn-primary {
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25)!important;
+    background-color: #005aa8!important;
+    background-image: -moz-linear-gradient(top, #0070a8, #0038a8)!important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0070a8), to(#0038a8))!important;
+    background-image: -webkit-linear-gradient(top, #0070a8, #0038a8)!important;
+    background-image: -o-linear-gradient(top, #0070a8, #0038a8)!important;
+    background-image: linear-gradient(to bottom, #0070a8, #0038a8)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0070a8', endColorstr='#ff0038a8', GradientType=0)!important;
+    border-color: #0038a8 #0038a8 #001e5c!important;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false)!important;
+	padding: 0.5em!important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    color: #fff!important;
+    background-color: #0696f8!important;
+    background-image: linear-gradient(to bottom, #0696f8, #0696f8)!important;
+}
+
+
+
+
+
+
+
+/*---------------------Estilo Responsivo---------------------------*/
+
+
+/*-------------------------------Orientação Retrato----*/
+
+
+/*------largura até 600px----*/
+@media (max-width: 600px), screen and (orientation: portrait) {  
+	
+	header#page-header {
+    display: none;
+}
+	
+	#maincontent h2 {
+    border: solid 1px red!important;
+}
+	
+	#region-main>.card, #page-enrol-users #region-main>#filterform, .que #region-main>.history, .userprofile .profile_tree #region-main>section, #region-main>.groupinfobox, #region-main>.well {
+    overflow: initial;
+	}
+	
+
+	.card-body {
+    padding: 0!important;
+}
+	
+	section.agrupar {
+    position: relative!important;
+    /* border: solid 1px red!important; */
+    width: 100%!important;
+    margin: 0 auto!important;
+    padding-bottom: 2.5em!important;
+}
+	
+	
+
+	.fulltextpage.coverpage {
+    max-height: 525px;
+}
+	
+	.path-mod-icontent .headercoverpage {
+    padding: unset;
+	}
+	
+	.path-mod-icontent .icontent-page .row {
+    padding: 0 25%!important;
+    text-align: center!important;
+}
+
+
+	
+.path-mod-icontent .full-paging-buttonbar {
+	display:none!important;
+	
+	
+	
+	}
+	
+	.path-mod-icontent .icontent-page .fulltextpage {
+   /*padding: inherit!important;*/
+  		 min-height: inherit!important;
+		 /*margin-top: 28%!important;*/
+		padding: 16px 15px!important;
+		
+}
+	
+	
+
+	
+.path-mod-icontent .icontent-page .fulltextpage p {
+    /*padding: 0 22px!important;*/
+	text-indent: initial!important;
+}	
+	
+	.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
+    top: 0px!important;
+    padding-right: 25px!important;
+}
+
+.path-mod-icontent .icontent-page .fulltextpage .toolbarpage .icon {
+    color: rgba(17,119,209,.5)!important;
+}
+	
+.toolbarpage .icon:hover {
+    color: #add!important;
+}
+	
+
+	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
+		
+		top:0!important;
+				
+		
+	}
+	
+	.path-mod-icontent .headercoverpage, .path-mod-icontent .contentcoverpage {
+    width: 100%!important;
+    }
+	
+	.path-mod-icontent .contentcoverpage {
+    
+    padding: 1em 0.5em!important;
+    
+}
+	
+	
+	
+/*----Área de texto----*/
+	
+
+	
+	
+.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
+    position: relative!important;
+    min-height: 365px!important;
+    max-height: 370px!important;
+    overflow: auto!important;
+    z-index: 998!important;
+}	
+	
+	
+	
+	
+	
+/*----Fim da Área de texto----*/	
+	
+	
+/*----Avançar e voltar----*/		
+	
+	div#fgroup_id_buttonar {
+    top: 325px!important;
+    
+}
+	
+/*----Fim de Avançar e voltar----*/
+	
+	
+	
+	
+
+	
+.progress {
+    display:none!important;
+}	
+	.path-mod-icontent .icontent-page .pagenum  {
+		top: 8px!important;
+		
+	}
+	
+	.path-mod-icontent .icontent-page .pagenum span {
+   top: 0px!important;
+}
+	
+	
+/*----Área de Perguntas----*/
+	
+	div#idnotesarea {
+		position:absolute!important;
+    	min-width: 300px!important;
+   		 z-index: 998!important;
+    	left: 10px!important;
+    	top: 648px!important;
+}
+	
+		
+	div#idfulltab {
+    padding: 0.1em;
+    border-radius: 0 0 20px 20px;
+    /*width: 550px;*/
+}	
+
+div#idtabicontent {
+    width: 100%!important;
+}
+	
+	
+	
+	
+.path-mod-icontent .icontent-page .notesarea .notelist .pagenoterow {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 0px 30px 6px!important;
+}	
+.path-mod-icontent .notesarea #note .fields span {
+    margin-right: 1.0em;
+}
+	
+/*----Área de Perguntas----*/	
+	
+	
+	#fgroup_id_buttonar .btn-previous-page, #fgroup_id_buttonar .btn-next-page {
+
+    z-index: 999!important;
+}
+
+
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+/*------------------------------Fim da Orientação Retrato----*/
+
+
+
+/*-----------------------------Orientação Paisagem----*/
+
+/*------largura até 600px----*/
+@media (min-width: 600px) and (orientation: landscape) {
+
+	section.agrupar {
+    /*border: solid 1px blue;*/
+    width: 100%;
+    margin: 0 auto;
+}
+	
+
+
+
+
+}
+
+
+
+/*-----------------------------Fim da Orientação Paisagem----*/
+
+
+
+
+/*---------------------Fim do Estilo Responsivo------------------------*/
+
+
+
+
+
+
+
