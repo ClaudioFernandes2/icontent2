@@ -292,33 +292,26 @@ div#idicontentpages {
 /*----título do slide-----*/
 .path-mod-icontent .icontent-page .fulltextpage h3.pagetitle {
     font-size: 30px;
-    line-height: 1.2em;
-    margin-bottom: 20px;
     background-color: rgba(17,119,209,.5);
     color: #fff;
-    padding: .1em;
+    padding-top: 0.5em;
     padding-left: 1.0em;
-    width: 104.5%;
     height: 83px;
     clear: both;
     overflow: hidden;
 }
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
-    text-align: right;
-    position: relative;
     z-index: 999;
-    padding: 0 4.5em;
-    border-radius: 22px 0px 0 0;
-    background-color: rgba(17,119,209,.5);
-    width: 104.5%;
+    padding: 0 1.5em 0.8em;
 }
+
 .toolbarpage .icon {
     position: relative;
-    color: #f8f9fa;
+    color: rgba(17,119,209,.5);
     top: 15px;
 }
 .toolbarpage .icon:hover {
-       color: #add;
+    color: #0070a8;
 }
 
 
