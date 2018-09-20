@@ -233,6 +233,19 @@ div#idicontentpages {
 }
 
 /*----------------------------------mancha gráfica total----------*/
+
+.path-mod-icontent .icontent-page .fulltextpage p {
+    font-family: verdana;
+    font-size: 16px;
+    text-indent: 1.5em;
+    line-height: 1.7em;
+    color: #555;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
 .path-mod-icontent .icontent-page .fulltextpage {
     font-size: 16px;
     letter-spacing: .1px;
@@ -244,6 +257,11 @@ div#idicontentpages {
     background-size: cover!important;
 	min-height: 690px!important;
 }
+
+
+
+
+
 
 /*----Páginas de Capa-----*/
 
@@ -279,9 +297,11 @@ div#idicontentpages {
     background-color: rgba(17,119,209,.5);
     color: #fff;
     padding: .1em;
-    padding-left: 0.5em;
+    padding-left: 1.0em;
     width: 104.5%;
+    height: 83px;
     clear: both;
+    overflow: hidden;
 }
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     text-align: right;
@@ -293,7 +313,9 @@ div#idicontentpages {
     width: 104.5%;
 }
 .toolbarpage .icon {
-       color: #dee2e6;
+    position: relative;
+    color: #f8f9fa;
+    top: 15px;
 }
 .toolbarpage .icon:hover {
        color: #add;
@@ -408,6 +430,12 @@ icontent-buttonbar button {
 
 
 /*----Área de Perguntas----*/
+
+:target {
+    padding-top: 45px!important;  
+}
+
+
 .path-mod-icontent .notesarea .titlenotes {
     max-width: 300px!important;
 }
@@ -514,9 +542,9 @@ em.noteon {
 /*-----------------divisão em colunas-----------*/
 
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
-	position: relative!important;
-    min-height: 450px!important;
-    max-height: 451px!important;
+    /* position: relative!important; */
+    min-height: 399px!important;
+    max-height: 400px!important;
     overflow: auto!important;
     z-index: 998!important;
 }
@@ -551,8 +579,6 @@ em.noteon {
 /*--------------------------------Fim do Conteúdo-----------------------------*/
 
 .progress {
-    position: relative;
-    top: 10px;
     display: flex;
     height: .6rem;
     overflow: hidden;
