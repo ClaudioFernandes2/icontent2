@@ -575,7 +575,10 @@ em.noteon {
 
 
 .path-mod-icontent .icontent-page .highcontrast p, .path-mod-icontent .icontent-page .highcontrast b, .path-mod-icontent .icontent-page .highcontrast strong, .path-mod-icontent .icontent-page .highcontrast span, .path-mod-icontent .icontent-page .highcontrast {
-    color: #bbb!important;
+    	text-decoration: none;
+    	text-shadow: initial!important;
+    	font-weight: initial!important;
+		color: #bbb!important;
 }
 
 
@@ -584,6 +587,17 @@ em.noteon {
     /* background-color: #d6be6b!important; */
     background-color: #373a3cd6!important;
 }
+
+.path-mod-icontent .icontent-page .highcontrast h1, .path-mod-icontent .icontent-page .highcontrast h2, .path-mod-icontent .icontent-page .highcontrast h3, .path-mod-icontent .icontent-page .highcontrast h4, .path-mod-icontent .icontent-page .highcontrast h5, .path-mod-icontent .icontent-page .highcontrast h6, .path-mod-icontent .icontent-page .highcontrast a, .path-mod-icontent .icontent-page .highcontrast a:active, .path-mod-icontent .icontent-page .highcontrast a:hover, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a:hover, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a:focus {
+    color: #373a3c!important;
+}
+
+.fulltextpage .coverpage .highcontrast p {
+color:#555!important;
+
+}
+
+
 
 /*---------fim do Alto Contraste----------*/
 
