@@ -291,7 +291,8 @@ div#idicontentpages {
 
 /*----título do slide-----*/
 .path-mod-icontent .icontent-page .fulltextpage h3.pagetitle {
-    font-size: 30px;
+    font-family: roboto light;
+    font-size: 25px!important;
     background-color: rgba(17,119,209,.5);
     color: #fff;
     padding-top: 0.5em;
