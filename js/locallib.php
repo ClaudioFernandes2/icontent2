@@ -1624,7 +1624,7 @@ function icontent_user_can_remove_attempts_answers_for_tryagain($pageid, $cmid){
  	$objpage->pagenum = $button->startwithpage;
  	$objpage->cmid = $button->cmid;
  	$pageprevious = icontent_get_prev_pagenum($objpage);
- 	$attributes = array('title' => $button->title, 'id'=>'prev-btn', 'class'=>'load-page btn-previous-page', 'data-toggle'=> 'tooltip', 'data-totalpages' => $tpages, 'data-placement'=> 'top', 'data-pagenum' => $pageprevious, 'data-cmid' => $button->cmid, 'data-sesskey' => sesskey());
+ 	$attributes = array('title' => $button->title, 'class'=>'load-page btn-previous-page', 'data-toggle'=> 'tooltip', 'data-totalpages' => $tpages, 'data-placement'=> 'top', 'data-pagenum' => $pageprevious, 'data-cmid' => $button->cmid, 'data-sesskey' => sesskey());
  	if(!$pageprevious){
  		$attributes = $attributes + array('disabled' => 'disabled');
  	}
@@ -1645,7 +1645,7 @@ function icontent_user_can_remove_attempts_answers_for_tryagain($pageid, $cmid){
  	$objpage->pagenum = $button->startwithpage;
  	$objpage->cmid = $button->cmid;
  	$nextpage = icontent_get_next_pagenum($objpage);
- 	$attributes = array('title' => $button->title, 'id'=>'next-btn', 'class'=>'load-page btn-next-page' , 'data-toggle'=> 'tooltip', 'data-totalpages' => $tpages, 'data-placement'=> 'top', 'data-pagenum' => $nextpage, 'data-cmid' => $button->cmid, 'data-sesskey' => sesskey());
+ 	$attributes = array('title' => $button->title, 'class'=>'load-page btn-next-page' , 'data-toggle'=> 'tooltip', 'data-totalpages' => $tpages, 'data-placement'=> 'top', 'data-pagenum' => $nextpage, 'data-cmid' => $button->cmid, 'data-sesskey' => sesskey());
  	if(!$nextpage){
  		$attributes = $attributes + array('disabled' => 'disabled');
  	}
@@ -2290,11 +2290,11 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
  		$chars .= html_writer::end_tag('p');
  		$buttons = html_writer::link(null, '<i class="fa fa-plus"></i>&nbsp;'. get_string('showmore', 'mod_icontent'), array('class'=>'btn btn-default read-more-state-on'));
  		$buttons .= html_writer::link(null, '<i class="fa fa-minus"></i>&nbsp;'. get_string('showless', 'mod_icontent'), array('class'=>'btn btn-default read-more-state-off'));
- 		$chars .= html_writer::div($buttons, 'state-readmore');
+		$chars .= html_writer::div($buttons, 'state-readmore');
  	}else{
  		$chars = html_writer::tag('p', $strcontent);
  		// Checks if content is empty
- 		$nospace = str_replace('&nbsp;', '', $strcontent);
+ 		$nospace = str_replace('&nbsp;', '',$strcontent);
  		$nospace = str_replace('.', '', $nospace);
  		$nospace = trim($nospace);
  		// Add class 'hide' to hide element and builds the page

@@ -521,7 +521,7 @@ function icontent_get_next_pagenum(stdClass $objpage){
  */
 function icontent_get_questions_of_questionbank($coursecontext, $sort, $page = 0, $perpage = ICONTENT_PER_PAGE){
 	global $DB;
-	$sort = 'q.name'.$sort;
+	$sort = 'q.name '.$sort;
 	$page = (int) $page;
 	$perpage = (int) $perpage;
 	// Setup pagination - when both $page and $perpage = 0, get all results
@@ -2202,16 +2202,6 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
  			'data-placement'=> 'top'
  		)
  	);
-
-     $fullpage = html_writer::link('#!', '<i class="fa fa-arrows-alt"></i>',
-         array(
-             'title' => s(get_string('fullpage', 'icontent')),
-             'class'=>'icon icon-highcontrast togglehighcontrast',
-             'data-toggle'=> 'tooltip',
-             'data-placement'=> 'top'
-         )
-     );
-
  	$update = false;
  	$new = false;
  	$addquestion = false;
@@ -2273,7 +2263,7 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
 		 }
 	}
 	// Make toolbar
-	$toolbar = html_writer::tag('div', $fullpage. $highcontrast. $comments. $displayed. $addquestion. $update. $new, array('class'=>'toolbarpage '));
+	$toolbar = html_writer::tag('div', $highcontrast. $comments. $displayed. $addquestion. $update. $new, array('class'=>'toolbarpage '));
 	// Return toolbar
  	return $toolbar;
  }
@@ -2304,7 +2294,7 @@ function icontent_make_list_group_notesdaughters($notesdaughters){
  	}else{
  		$chars = html_writer::tag('p', $strcontent);
  		// Checks if content is empty
- 		$nospace = str_replace('&nbsp;', '', $strcontent);
+ 		$nospace = str_replace('&nbsp;', '',$strcontent);
  		$nospace = str_replace('.', '', $nospace);
  		$nospace = trim($nospace);
  		// Add class 'hide' to hide element and builds the page

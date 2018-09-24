@@ -304,12 +304,14 @@ define(['jquery','jqueryui', 'mod_icontent/cookiehandler'], function($, jqui, c)
                 path: '/'
             });
             $('.fulltextpage').removeClass('highcontrast').css('background-color', '#FCFCFC');
+			console.log('cliquei aqui .removeClass');
         } else {
             c.cookie('highcontrast', 'yes', {
                 expires: 7,
                 path: '/'
             });
             $(".fulltextpage").addClass("highcontrast").css({"background-color":"#000000", "background-image": "none"});
+			console.log('cliquei aqui .addClass');
         }
     }
 
