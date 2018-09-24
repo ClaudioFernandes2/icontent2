@@ -776,9 +776,7 @@ em.noteon {
 		
 	
 /*----Área de texto----*/
-	
 
-	
 	
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     /* position: relative!important; */
@@ -786,7 +784,10 @@ em.noteon {
     max-height: 422px!important;
     overflow: auto!important;
     z-index: 998!important;
-}	
+}
+	
+	
+	
 	
 	
 	
