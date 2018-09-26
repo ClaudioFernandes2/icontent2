@@ -566,7 +566,8 @@ em.noteon {
 
 /*----------------- Alto Contraste----------*/
 
-.highcontrast .cor_invertida {background-color: #333!important;}
+.highcontrast .cor_invertida {background-color: #333!important;
+}
 
 .highcontrast .headercoverpage.row {
     background: rgba(0,0,0,0.075)!important;
