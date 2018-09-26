@@ -593,8 +593,7 @@ em.noteon {
 }
 
 .path-mod-icontent .icontent-page .highcontrast h1, .path-mod-icontent .icontent-page .highcontrast h2, .path-mod-icontent .icontent-page .highcontrast h3, .path-mod-icontent .icontent-page .highcontrast h4, .path-mod-icontent .icontent-page .highcontrast h5, .path-mod-icontent .icontent-page .highcontrast h6, .path-mod-icontent .icontent-page .highcontrast a, .path-mod-icontent .icontent-page .highcontrast a:active, .path-mod-icontent .icontent-page .highcontrast a:hover, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a:hover, .path-mod-icontent .icontent-page .highcontrast .nav-tabs>.active>a:focus {
-    color: #373a3c!important;
-	/*color: #46ccb4!important;*/
+   	color: #46ccb4!important;
 }
 
 
