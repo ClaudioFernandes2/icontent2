@@ -568,6 +568,13 @@ em.noteon {
 
 .cor_invertida {background-color: #333!important;}
 
+.highcontrast .headercoverpage.row {
+    background: rgba(0,0,0,0.075)!important;
+}
+.highcontrast .contentcoverpage {
+    background: rgba(0,0,0,0.075)!important;
+}
+
 
 
 .path-mod-icontent .icontent-page .highcontrast p, .path-mod-icontent .icontent-page .highcontrast b, .path-mod-icontent .icontent-page .highcontrast strong, .path-mod-icontent .icontent-page .highcontrast span, .path-mod-icontent .icontent-page .highcontrast {
