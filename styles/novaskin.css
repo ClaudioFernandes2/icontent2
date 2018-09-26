@@ -128,9 +128,7 @@ div#idicontentpages {
 
 
 div#fgroup_id_buttonar button {
-
-
-display: inline-block!important;
+	display: inline-block!important;
     background: inherit!important;
     border: none!important;
     padding: 0!important;
@@ -154,9 +152,7 @@ display: inline-block!important;
 
 
 
-div#fgroup_id_buttonar {
-	
-	 	
+div#fgroup_id_buttonar {	 	
     width: 100%!important;
     position: relative!important;
     display: flex!important;
@@ -570,7 +566,7 @@ em.noteon {
 
 /*----------------- Alto Contraste----------*/
 
-
+.cor_invertida {background-color: #333!important;}
 
 
 
@@ -593,7 +589,7 @@ em.noteon {
 }
 
 .fulltextpage .coverpage .highcontrast p {
-color:#555!important;
+color:#06d5f8!important
 
 }
 
@@ -740,8 +736,7 @@ color:#555!important;
     margin: 0 auto!important;
     padding-bottom: 2.5em!important;
 }
-	
-	
+		
 
 	.fulltextpage.coverpage {
     max-height: 525px;
@@ -912,10 +907,6 @@ div#idtabicontent {
 	
 	
 }
-
-
-
-
 
 
 
