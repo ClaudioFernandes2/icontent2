@@ -942,6 +942,7 @@ div#idtabicontent {
 
 
 
+
 /*-----------------------------Fim da Orientação Paisagem----*/
 
 
@@ -949,7 +950,34 @@ div#idtabicontent {
 
 /*---------------------Fim do Estilo Responsivo------------------------*/
 
+/*-----------------------Estilo Crossbrowser--------------------------*/
 
+<!--[if IE]> 
+
+/*Internet Explorer 9-*/ 
+
+button, input.form-submit, input[type='button'], input[type='submit'], input[type='reset'], #notice .singlebutton + .singlebutton 
+
+input, .buttons.submit input[name='cancel']
+{
+background:tranparent;
+}
+
+.full-paging-buttonbar button.btn-next-page.load-page{
+top:0px;
+}
+
+.full-paging-buttonbar button.btn-previous-page.load-page{
+top:0px;
+}
+h1{
+	color:Blue!important;
+	border:solid 1px red!important;
+}
+
+<![endif]-->
+
+/*-----------------------Estilo Crossbrowser--------------------------*/
 
 
 
