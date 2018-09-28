@@ -960,7 +960,7 @@ button, input.form-submit, input[type='button'], input[type='submit'], input[typ
 
 input, .buttons.submit input[name='cancel']
 {
-background:tranparent;
+background:transparent!important;
 }
 
 .full-paging-buttonbar button.btn-next-page.load-page{
@@ -969,10 +969,15 @@ top:0px;
 
 .full-paging-buttonbar button.btn-previous-page.load-page{
 top:0px;
+
 }
-h1{
-	color:Blue!important;
-	border:solid 1px red!important;
+#fgroup_id_buttonar .btn-next-page{
+	background:transparent;
+	
+}
+#fgroup_id_buttonar .btn-previous-page{
+	background:transparent;
+	
 }
 
 <![endif]-->
