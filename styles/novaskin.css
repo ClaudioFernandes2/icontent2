@@ -161,6 +161,7 @@ div#fgroup_id_buttonar {
 	/*border: solid 1px green!important;*/
 	margin: 0 auto!important;
     top: 390px!important;
+	max-width: 990px;
     /*z-index: -99;*/
 }
 
@@ -258,6 +259,7 @@ div#idicontentpages {
 
 
 .path-mod-icontent .icontent-page .fulltextpage {
+	margin: 0 auto;
     font-size: 16px;
     letter-spacing: .1px;
     line-height: 1.8em;
@@ -267,6 +269,7 @@ div#idicontentpages {
     background-repeat: no-repeat;
     background-size: cover!important;
 	min-height: 690px!important;
+	max-width: 990px;
 }
 
 
