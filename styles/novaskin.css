@@ -718,8 +718,19 @@ color:#06d5f8!important
 /*-------------------------------Orientação Retrato----*/
 
 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+
+
+
+
+
 /*------largura até 600px----*/
-@media (max-width: 600px), screen and (orientation: portrait) {  
+@media only screen and (max-width: 600px), screen and (orientation: portrait) {  
 	
 	header#page-header {
     display: none;
@@ -920,6 +931,11 @@ div#idtabicontent {
 
 
 /*------------------------------Fim da Orientação Retrato----*/
+
+
+
+
+
 
 
 
