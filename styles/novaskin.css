@@ -2,6 +2,7 @@
 /* CSS Document */
 
 
+
 /*---------------------Recomendação---------------------------
 
 Páginas otimizadas para uma variedade de dispositivos devem incluir uma tag meta viewport no cabeçalho do documento. Uma tag meta viewport instrui o navegador como controlar o tamanho e o dimensionamento da página.
@@ -237,6 +238,20 @@ div#idicontentpages {
     line-height: 1.7em;
     color: #555;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+	/* border: solid 1px red; */
+}
+
+#cor_padrao {
+    display: inline-grid;
+    /* border: solid 1px yellow; */
+}
+
+
+
+#cor_padrao p {
+  /*  border: solid 1px green; */
+    color: #fff;
+    text-shadow: none;
 }
 
 
@@ -525,6 +540,7 @@ em.noteon {
 .level-4 {
     background-color: #f5e685c2!important;
 }
+
 
 
 
