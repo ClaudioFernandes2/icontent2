@@ -467,6 +467,7 @@ div#idfulltab {
     padding: 1.1em;
     border-radius: 0 20px 20px 20px;
 	width: 550px;
+	box-shadow: 1px 2px 6px #ccc;
 }
 
 div#idtabicontent {
