@@ -762,24 +762,17 @@ color:#06d5f8!important
 
 
 
-/*---------------------Estilo Responsivo---------------------------*/
-
-
-/*-------------------------------Orientação Retrato----*/
-
-
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
-}
+/*===========================(  ESTILO RESPONSIVO  )============================*/
 
 
 
 
 
+/*-------------------------------Orientação Retrato----------*/
 
-/*------largura até 600px----*/
+
+
+/*------largura até 600px na orientação retrato----*/
 @media only screen and (max-width: 600px), screen and (orientation: portrait) {  
 	
 	header#page-header {
@@ -872,14 +865,13 @@ and (min-width : 321px) {
     }
 	
 	.path-mod-icontent .contentcoverpage {
-    
-    padding: 1em 0.5em!important;
+	padding: 1em 0.5em!important;
     
 }
 	
 		
 	
-/*----Área de texto----*/
+/*----Área de texto na orientação retrato largura até 600px----*/
 
 	
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
@@ -897,17 +889,17 @@ and (min-width : 321px) {
 	
 	
 	
-/*----Fim da Área de texto----*/	
+/*----Fim da Área de texto na orientação retrato largura até 600px ----*/	
 	
 	
-/*----Avançar e voltar----*/		
+/*----Avançar e voltar na orientação retrato largura até 600px----*/		
 	
 	div#fgroup_id_buttonar {
     top: 325px!important;
     
 }
 	
-/*----Fim de Avançar e voltar----*/
+/*----Fim de Avançar e voltar na orientação retrato largura até 600px----*/
 	
 	
 	
@@ -927,7 +919,7 @@ and (min-width : 321px) {
 }
 	
 	
-/*----Área de Perguntas----*/
+/*----Área de Perguntas na orientação retrato largura até 600px----*/
 	
 	div#idnotesarea {
 		position:absolute!important;
@@ -962,7 +954,7 @@ div#idtabicontent {
     margin-right: 1.0em;
 }
 	
-/*----Área de Perguntas----*/	
+/*----Fim da Área de Perguntas na orientação retrato largura até 600px----*/	
 	
 	
 	#fgroup_id_buttonar .btn-previous-page, #fgroup_id_buttonar .btn-next-page {
@@ -970,26 +962,27 @@ div#idtabicontent {
     z-index: 999!important;
 }
 
+}/*------Fim da largura até 600px Retrato ----*/
 
-	
-	
-	
-	
-	
+
+
+/*-------------------------------Orientação Paisagem----*/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
 }
 
 
-
-/*------------------------------Fim da Orientação Retrato----*/
-
+/*-------------------------------Fim da Orientação Paisagem----*/
 
 
 
 
 
 
-
-/*-----------------------------Orientação Paisagem----*/
 
 /*------largura até 600px----*/
 @media (min-width: 600px) and (orientation: landscape) {
@@ -1014,9 +1007,12 @@ div#idtabicontent {
 
 
 
-/*---------------------Fim do Estilo Responsivo------------------------*/
+/*===========================(  FIM DO ESTILO RESPONSIVO  )============================*/
+	
+	
+	
 
-/*-----------------------Estilo Crossbrowser--------------------------*/
+/*===========================(  ESTILO CROSSBROSER  )============================*/
 
 <!--[if IE]> 
 
@@ -1048,7 +1044,7 @@ top:0px;
 
 <![endif]-->
 
-/*-----------------------Estilo Crossbrowser--------------------------*/
+/*===========================(  ESTILO CROSSBROSER  )============================*/
 
 
 
