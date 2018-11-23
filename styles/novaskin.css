@@ -371,7 +371,9 @@ div#idicontentpages {
    /* position: relative;
     text-align: right;
     top: 5px;*/
+	top:520px;
     z-index: 998;
+	
 }
 
 
@@ -825,11 +827,12 @@ color:#06d5f8!important
 }
 	
 	section.agrupar {
-    position: relative!important;
+    /*position: relative!important;*/
+	top: 65px;
     /* border: solid 1px red!important; */
     width: 100%!important;
     margin: 0 auto!important;
-    padding-bottom: 2.5em!important;
+    /*padding-bottom: 2.5em!important;*/
 }
 		
 
@@ -963,7 +966,7 @@ color:#06d5f8!important
     	min-width: 300px!important;
    		 z-index: 998!important;
     	left: 10px!important;
-    	top: 648px!important;
+    	top: 580px!important;
 }
 	
 		
@@ -1035,7 +1038,7 @@ div#idtabicontent {
 	
 	div#idicontentpages {
     /*border: solid 1px green;*/
-    position: absolute;
+	position: relative;
     top: 0;
     width: 100%;
 }	
@@ -1068,7 +1071,7 @@ div#idtabicontent {
 	
 	.path-mod-icontent .icontent-page .fulltextpage {
    /*padding: inherit!important;*/
-  		 height: 560px!important;
+  		 height: 640px!important;
 		 /*margin-top: 28%!important;*/
 		padding: 16px 15px!important;
 		
@@ -1129,7 +1132,7 @@ div#idtabicontent {
 	
 	.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
 		position: relative;
-		top:-35px;
+		top:-22px;
 		width: 103%;
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
@@ -1158,7 +1161,7 @@ div#idtabicontent {
 /*----Avançar e voltar na orientação retrato largura até 320px----*/		
 	
 	div#fgroup_id_buttonar {
-    top: 495px!important;
+    top: 548px!important;
     
 }
 	
@@ -1193,11 +1196,12 @@ div#idtabicontent {
 /*----Área de Perguntas na orientação retrato largura até 320px----*/
 	
 	div#idnotesarea {
-		/*position:absolute!important;
-    	min-width: 300px!important;
+		
+    	/*min-width: 300px!important;
    		 z-index: 998!important;
     	left: 10px!important;*/
-    	top: 572px!important;
+		position:relative!important
+    	top: 660px!important;
 }
 	
 		
