@@ -840,7 +840,7 @@ color:#06d5f8!important
 	}
 	
 	.path-mod-icontent .icontent-page .row {
-    padding: 0 25%!important;
+    /*padding: 0 25%!important;*/
     text-align: center!important;
 }
 
@@ -1051,7 +1051,7 @@ div#idtabicontent {
 	}
 	
 	.path-mod-icontent .icontent-page .row {
-    padding: 0 25%!important;
+    /*padding: 0 25%!important;*/
     text-align: center!important;
 }
 
