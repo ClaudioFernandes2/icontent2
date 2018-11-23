@@ -260,10 +260,10 @@ div#idicontentpages {
     padding: 16px 42px;
     z-index: 99;
     background-repeat-x: no-repeat;
-    background-size: 990px!important;
+    background-size: 990px;
     background-position: center!important;
     background-repeat-y: repeat!important;
-    /*min-height: 640px!important*/
+    height: 665px;
     max-width: 990px;
     box-shadow: 6px 7px 19px #ccc;
 }
@@ -343,7 +343,7 @@ div#idicontentpages {
 }
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     z-index: 999;
-   /* padding: 0 1.5em 0.8em;*/
+    padding: 0 1.5em 0.8em;
 }
 
 .toolbarpage .icon {
@@ -1085,7 +1085,8 @@ div#idtabicontent {
 	.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
 	position:relative;
 	top: -31px!important;
-    padding-right: 25px!important;
+	padding: 0 25px 0 0;
+    /*padding-right: 25px!important;*/
 }
 
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage .icon {
