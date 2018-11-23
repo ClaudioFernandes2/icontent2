@@ -98,20 +98,6 @@ button {
 	display: flex;
 	flex-direction: column;*/
 }
-.fulltextpage {
-    float: none!important;
-    background-size: contain!important;
-    background-repeat-y: no-repeat!important;
-	height: 704px!important;
-}
-
-.coverpage {
-    float: none!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-}
-
-
 
 section.agrupar {
     /*border: solid 1px blue;*/
@@ -258,7 +244,11 @@ div#idicontentpages {
 	
 }
 
-
+.fulltextpage {
+    float: none!important;
+    background-size: contain!important;
+    background-repeat-y: no-repeat!important;
+}
 
 
 .path-mod-icontent .icontent-page .fulltextpage {
@@ -291,7 +281,11 @@ div#idicontentpages {
     max-height: 358px;
 }*/
 
-
+.coverpage {
+    float: none!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
 
 
 
