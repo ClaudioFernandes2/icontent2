@@ -98,19 +98,20 @@ button {
 	display: flex;
 	flex-direction: column;*/
 }
-
-.fulltextpage.coverpage {
-    float: none!important;
-    height: 704px!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-}
-
 .fulltextpage {
     float: none!important;
     background-size: contain!important;
     background-repeat-y: no-repeat!important;
+	height: 704px!important;
 }
+
+.coverpage {
+    float: none!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+
 
 section.agrupar {
     /*border: solid 1px blue;*/
