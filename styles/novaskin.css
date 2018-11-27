@@ -960,7 +960,7 @@ color:#06d5f8!important
 		position:absolute!important;
     	min-width: 300px!important;
    		 z-index: 998!important;
-    	left: 10px!important;
+    	/*left: 10px!important;*/
     	top: 580px!important;
 }
 	
@@ -1196,8 +1196,8 @@ div#idtabicontent {
    		 z-index: 998!important;
     	left: 10px!important;*/
 		position:relative!important;
-		min-width: 248px!important;
-    	top:48px!important;
+		min-width: 240px!important;
+    	top: 10px!important;
 	}
 	
 		
