@@ -1133,13 +1133,14 @@ div#idtabicontent {
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
     columns: auto!important;
-    height: 445px!important;
+    height: 400px!important;
     		overflow-x: hidden!important;
     /*overflow-y: -webkit-paged-y!important;
     overflow-x: hidden!important;*/
     z-index: 998!important;
 		display: inline-block;
 		image-resolution:snap!important;
+		z-index: auto!important;
 		/*background-color: #ffffff5c;*/
 }
 	
@@ -1195,9 +1196,9 @@ div#idtabicontent {
     	/*min-width: 300px!important;
    		 z-index: 998!important;
     	left: 10px!important;*/
-		position:relative!important;
+		/*position:relative!important;*/
 		min-width: 254px!important;
-    	top: 52px!important;
+    	top: 600px!important;
 		margin: 0 auto!important;
 	}
 	
