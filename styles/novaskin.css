@@ -1196,8 +1196,9 @@ div#idtabicontent {
    		 z-index: 998!important;
     	left: 10px!important;*/
 		position:relative!important;
-		min-width: 240px!important;
-    	top: 42px!important;
+		min-width: 254px!important;
+    	top: 52px!important;
+		margin: 0 auto!important;
 	}
 	
 		
