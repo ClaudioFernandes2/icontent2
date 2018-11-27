@@ -908,7 +908,7 @@ color:#06d5f8!important
 	
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     /* position: relative!important; */
-    height: 445px!important;
+    height: 415px!important;
     overflow: auto!important;
     z-index: 998!important;
 }
@@ -1156,7 +1156,7 @@ div#idtabicontent {
 /*----Avançar e voltar na orientação retrato largura até 320px----*/		
 	
 	div#fgroup_id_buttonar {
-    top: 592px!important;
+    top: 599px!important;
     
 }
 	
@@ -1177,7 +1177,7 @@ div#idtabicontent {
     position: absolute;
     padding: 5px 45px;
     font-size: 11px;
-    top: 535px!important;
+    top: 545px!important;
     text-align: center;
     left: 26.25%;
 }
@@ -1197,7 +1197,7 @@ div#idtabicontent {
     	left: 10px!important;*/
 		position:relative!important;
 		min-width: 240px!important;
-    	top: 10px!important;
+    	top: 42px!important;
 	}
 	
 		
