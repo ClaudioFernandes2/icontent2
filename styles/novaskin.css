@@ -1178,7 +1178,7 @@ div#idtabicontent {
     position: absolute;
     padding: 5px 45px;
     font-size: 11px;
-    top: 505px!important;
+    top: 535px!important;
     text-align: center;
     left: 26.25%;
 }
@@ -1196,9 +1196,9 @@ div#idtabicontent {
     	/*min-width: 300px!important;
    		 z-index: 998!important;
     	left: 10px!important;*/
-		position:relative!important
-    	top: 660px!important;
-}
+		position:relative!important;
+    	top:660px!important;
+	}
 	
 		
 	div#idfulltab {
