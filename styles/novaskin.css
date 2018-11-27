@@ -608,8 +608,9 @@ em.noteon {
 
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     /* position: relative!important; */
-    min-height: 421px!important;
-    max-height: 422px!important;
+    /*min-height: 421px!important;
+    max-height: 422px!important;*/
+	height: 445px;
     overflow: auto!important;
     z-index: 998!important;
 }
@@ -907,8 +908,7 @@ color:#06d5f8!important
 	
 .page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     /* position: relative!important; */
-    min-height: 421px!important;
-    max-height: 422px!important;
+    height: 445px!important;
     overflow: auto!important;
     z-index: 998!important;
 }
@@ -1133,9 +1133,8 @@ div#idtabicontent {
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
     columns: auto!important;
-    min-height: 385px!important;
-    max-height: 410px!important;
-		overflow-x: hidden!important;
+    height: 445px!important;
+    		overflow-x: hidden!important;
     /*overflow-y: -webkit-paged-y!important;
     overflow-x: hidden!important;*/
     z-index: 998!important;
