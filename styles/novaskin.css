@@ -1082,13 +1082,14 @@ div#idtabicontent {
 	
 }	
 	
-	.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
-	position:relative;
-	top: -31px!important;
-	padding: 0 25px 0 0;
-    /*padding-right: 25px!important;*/
+.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
+    position: relative;
+    top: -25px!important;
+    /*padding: 0 25px 0 0;*/
+    /* padding-right: 25px!important; */
 }
-
+	
+	
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage .icon {
     font-size: 12px;
 	}
