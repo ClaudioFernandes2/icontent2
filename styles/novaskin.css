@@ -1043,6 +1043,7 @@ div#idtabicontent {
 }
 
 	.fulltextpage.coverpage {
+	display: inherit!important;
     height: 560px;
 }
 	
@@ -1065,10 +1066,10 @@ div#idtabicontent {
 	}
 	
 	.path-mod-icontent .icontent-page .fulltextpage {
-   /*padding: inherit!important;*/
+ /*  padding: inherit!important;
   		 height: 640px!important;
-		 /*margin-top: 28%!important;*/
-		padding: 16px 15px!important;
+		 margin-top: 28%!important;
+		padding: 16px 15px!important;*/
 		
 }
 	
@@ -1076,7 +1077,7 @@ div#idtabicontent {
 
 	
 .path-mod-icontent .icontent-page .fulltextpage p {
-   padding: 0px 15px 0px 0px!important;
+   padding: 0px 9px 0px 0px!important;
     font-size: 0.9em!important;
     line-height: 1.5em;
 	
@@ -1084,9 +1085,10 @@ div#idtabicontent {
 	
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     position: relative;
-    top: -25px!important;
-    /*padding: 0 25px 0 0;*/
+    top: -40px!important;
+    padding: 0 25px 0 95px;
     /* padding-right: 25px!important; */
+    display: inherit;
 }
 	
 	
@@ -1100,11 +1102,11 @@ div#idtabicontent {
 	
 
 	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
-	position: relative;
-    top: -21px!important;
-	font-size: 16px!important;
-		padding-top: 2px;
-	}
+    position: relative;
+    top: -30px!important;
+    font-size: 16px!important;
+    padding-top: 2px;
+}
 	
 	.path-mod-icontent .headercoverpage, .path-mod-icontent .contentcoverpage {
     width: 100%!important;
@@ -1128,25 +1130,27 @@ div#idtabicontent {
 }*/
 	
 	.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
-		position: relative;
-		top:-22px;
-		width: 103%;
+    position: relative;
+    width: 103%;
+    top: -62px;
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
     columns: auto!important;
-    height: 400px!important;
-    		overflow-x: hidden!important;
-    /*overflow-y: -webkit-paged-y!important;
-    overflow-x: hidden!important;*/
-    z-index: 998!important;
-		display: inline-block;
-		image-resolution:snap!important;
-		z-index: auto!important;
-		/*background-color: #ffffff5c;*/
+    height: 70%!important;
+    overflow-x: hidden!important;
+    display: inline-block;
+    image-resolution: snap!important;
+    z-index: auto!important;
+    /* background-color: #ffffff5c; */
 }
 	
 .path-mod-icontent .icontent-page .fulltextpage {
-      background-position: center!important;
+    background-position: center!important;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 665px!important;
+    padding: 16px 15px!important;
 }	
 	
 	
