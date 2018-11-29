@@ -1104,7 +1104,7 @@ div#idtabicontent {
 
 	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
     position: relative;
-    top: -50px!important;
+    top: -58px!important;
     font-size: 16px!important;
     padding-top: 2px;
 }
@@ -1133,11 +1133,11 @@ div#idtabicontent {
 	.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     position: relative;
     width: 103%;
-    top: -92px;
+    top: -100px;
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
     columns: auto!important;
-    height: 70%!important;
+    height: 65%!important;
     overflow-x: hidden!important;
     display: inline-block;
     image-resolution: snap!important;
