@@ -487,7 +487,9 @@ h4#idtitlenotes {
     padding-left: 2.5em;
     text-indent: -5px;
 }
-
+a#doubt-tab {
+    padding: 10px 30px!important;
+}
 
 div#idnotesarea {
     position: absolute;
@@ -547,6 +549,7 @@ textarea#idcommentnote, textarea#idcommentdoubt {
    /* min-width: 96%;
     max-width: 98%;*/
 	min-height: 120px;
+	min-width: 98%;
     height: auto;
     border-radius: 5px;
 }
