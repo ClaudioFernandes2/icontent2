@@ -1213,6 +1213,7 @@ div#idtabicontent {
 	div#idfulltab {
     padding: 0.1em;
     border-radius: 0 0 20px 20px;
+		width: 95%;
     /*width: 550px;*/
 }	
 
