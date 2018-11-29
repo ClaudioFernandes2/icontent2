@@ -1133,7 +1133,7 @@ div#idtabicontent {
 	.page-layout.columns-1, .page-layout.columns-2, .page-layout.columns-3, .page-layout.columns-4, .page-layout.columns-5 {
     position: relative;
     width: 103%;
-    top: -62px;
+    top: -92px;
     -webkit-columns: auto!important;
     -moz-columns: auto!important;
     columns: auto!important;
