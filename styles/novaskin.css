@@ -1239,8 +1239,8 @@ div#idtabicontent {
 	
 	#fgroup_id_buttonar .btn-previous-page, #fgroup_id_buttonar .btn-next-page {
 
-    /*z-index: 999!important;*/
-		z-index: auto!important;
+    z-index: 999!important;
+		
 }
 
 	
