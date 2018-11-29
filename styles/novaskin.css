@@ -1087,7 +1087,7 @@ div#idtabicontent {
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     position: relative;
     top: -40px!important;
-    padding: 0 25px 0 175px;
+    padding: 0 25px 0 95px;
     /* padding-right: 25px!important; */
     display: inherit;
 }
