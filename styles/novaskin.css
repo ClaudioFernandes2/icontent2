@@ -365,27 +365,32 @@ div#idicontentpages {
 .path-mod-icontent .icontent-page .pagenum {
 	flex-direction: row-reverse;
 	position:absolute;
-	width: 900px;
+	z-index: auto;
+	/*width: 900px;*/
    /* position: relative;
     text-align: right;
     top: 5px;*/
 	/*z-index: 998;*/
-	z-index: auto;
+	
 	
 }
 
 
 .path-mod-icontent .icontent-page .pagenum span {
-    position: relative;
-    margin-right: -17px;
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    position: absolute;
     border: none;
-    padding: 10px 70px;
+    padding: 3px 70px;
     font-weight: 700;
     font-size: 12px;
     background-color: rgba(17,119,209,.5);
     color: #fff;
-    top: 810px;
+    left: 78%;
+    top: 80px;
 }
+
 
 /*----Fim da Numeração da página----*/
 
@@ -393,18 +398,18 @@ div#idicontentpages {
 
 
 .path-mod-icontent .full-paging-buttonbar {
-    text-align: center!important;
-    position: relative!important;
-    margin: 0 auto!important;
-    /*z-index: 997!important;*/
-	z-index: auto!important;
-    max-width: 44%!important;
-    /*border: solid 1px red;*/
-    display: flex!important;
-    flex-wrap: wrap!important;
+    display: flex;
     justify-content: center!important;
     align-items: center!important;
-	top:20px;
+    position: absolute;
+    border: none;
+    padding: 3px 70px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgba(17,119,209,.5);
+    color: #fff;
+    left: 740px;
+    top: 80px;
 }
 
 
