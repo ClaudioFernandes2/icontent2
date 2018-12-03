@@ -364,33 +364,27 @@ div#idicontentpages {
 
 .path-mod-icontent .icontent-page .pagenum {
 	flex-direction: row-reverse;
-	position:absolute;
-	z-index: auto;
-	/*width: 900px;*/
+	/*position:absolute;*/
+	width: 100%;
    /* position: relative;
     text-align: right;
     top: 5px;*/
 	/*z-index: 998;*/
-	
-	
+	z-index: auto;	
 }
 
 
 .path-mod-icontent .icontent-page .pagenum span {
-    display: flex;
-    justify-content: center!important;
-    align-items: center!important;
-    position: absolute;
+    position: relative;
+    margin-right: -17px;
     border: none;
-    padding: 3px 70px;
+    padding: 10px 70px;
     font-weight: 700;
     font-size: 12px;
     background-color: rgba(17,119,209,.5);
     color: #fff;
-    left: 78%;
-    top: 80px;
-}
-
+    top: 100px;
+    }
 
 /*----Fim da Numeração da página----*/
 
@@ -398,18 +392,18 @@ div#idicontentpages {
 
 
 .path-mod-icontent .full-paging-buttonbar {
-    display: flex;
+    text-align: center!important;
+    position: relative!important;
+    margin: 0 auto!important;
+    /*z-index: 997!important;*/
+	z-index: auto!important;
+    max-width: 44%!important;
+    /*border: solid 1px red;*/
+    display: flex!important;
+    flex-wrap: wrap!important;
     justify-content: center!important;
     align-items: center!important;
-    position: absolute;
-    border: none;
-    padding: 3px 70px;
-    font-weight: 700;
-    font-size: 12px;
-    background-color: rgba(17,119,209,.5);
-    color: #fff;
-    left: 740px;
-    top: 80px;
+	top:20px;
 }
 
 
