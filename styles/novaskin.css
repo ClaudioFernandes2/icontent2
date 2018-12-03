@@ -332,12 +332,12 @@ div#idicontentpages {
 /*----título do slide-----*/
 .path-mod-icontent .icontent-page .fulltextpage h3.pagetitle {
     font-family: roboto light;
-    font-size: 25px!important;
+    font-size: 22px!important;
     background-color: rgba(17,119,209,.5);
     color: #fff;
     padding-top: 0.5em;
     padding-left: 1.0em;
-    max-height: 83px;
+    max-height: 92px;
     clear: both;
     overflow: hidden;
 }
@@ -363,10 +363,13 @@ div#idicontentpages {
 /*----Numeração da página----*/
 
 .path-mod-icontent .icontent-page .pagenum {
+	flex-direction: row-reverse;
+	position:absolute;
+	width: 900px;
    /* position: relative;
     text-align: right;
     top: 5px;*/
-	top:520px;
+	top:810px;
     /*z-index: 998;*/
 	z-index: auto;
 	
@@ -402,6 +405,7 @@ div#idicontentpages {
     flex-wrap: wrap!important;
     justify-content: center!important;
     align-items: center!important;
+	top:20px;
 }
 
 
@@ -619,7 +623,7 @@ em.noteon {
     /* position: relative!important; */
     /*min-height: 421px!important;
     max-height: 422px!important;*/
-	height: 445px;
+	height: 360px;
     overflow: auto!important;
     z-index: 998!important;
 }
