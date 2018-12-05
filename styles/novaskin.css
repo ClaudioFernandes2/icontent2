@@ -1053,6 +1053,11 @@ div#idtabicontent {
     margin-right: inherit!important;
     margin-left: inherit!important;
 }
+	.container-fluid {
+    width: 100%;
+    padding-right: inherit!important;
+    padding-left: inherit!important;
+}
 	
 	div#idicontentpages {
     /*border: solid 1px green;*/
