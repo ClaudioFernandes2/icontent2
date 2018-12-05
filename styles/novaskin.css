@@ -1337,15 +1337,154 @@ and (min-width : 321px) {
 
 
 /*------largura até 600px----*/
-@media (min-width: 600px) and (orientation: landscape) {
-
-	section.agrupar {
-    /*border: solid 1px blue;*/
+@media (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
+	
+		body {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+	#header {
+    margin-right: inherit!important;
+    margin-left: inherit!important;
+}
+	#footer {
+    margin-right: inherit!important;
+    margin-left: inherit!important;
+}
+	.container-fluid {
     width: 100%;
-    margin: 0 auto;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+	div#region-main-box {
+    padding: 0px!important;
+}
+	.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+	
+	div#idicontentpages {
+    /*border: solid 1px green;*/
+	position: relative;
+    top: 0px;
+    width: 100%;
+}	
+	
+	span#maincontent {
+    display: none!important;
+}
+
+	.fulltextpage.coverpage {
+	display: inherit!important;
+    height: 560px;
+}
+	
+	.path-mod-icontent .headercoverpage {
+    padding: unset;
+	}
+	
+	.path-mod-icontent .icontent-page .row {
+    /*padding: 0 25%!important;*/
+    text-align: center!important;
+}
+
+
+	
+.path-mod-icontent .full-paging-buttonbar {
+	display:none!important;
+	
+	
+	
+	}
+	
+	.path-mod-icontent .icontent-page .fulltextpage {
+ /*  padding: inherit!important;
+  		 height: 640px!important;
+		 margin-top: 28%!important;
+		padding: 16px 15px!important;*/
+		
+}
+	
+	
+
+	
+.path-mod-icontent .icontent-page .fulltextpage p {
+   /*padding: 0px 9px 0px 0px!important;*/
+    font-size: 0.9em!important;
+    line-height: 1.5em;
+	
+}	
+	
+.path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
+    position: relative;
+    top: -40px!important;
+    /*padding: 0 25px 0 95px;*/
+    /* padding-right: 25px!important; */
+    display: inherit;
+	justify-content: flex-end;
+}
+	
+	
+.path-mod-icontent .icontent-page .fulltextpage .toolbarpage .icon {
+    font-size: 12px;
+	}
+	
+.toolbarpage .icon:hover {
+    color: #add!important;
 }
 	
 
+	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
+    position: relative;
+    top: -65px!important;
+    font-size: 16px!important;
+    padding-top: 2px;
+}
+	
+	.path-mod-icontent .headercoverpage, .path-mod-icontent .contentcoverpage {
+    width: 100%!important;
+    }
+	
+	.path-mod-icontent .contentcoverpage {
+	padding: 1em 0.5em!important;
+    
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	section.agrupar {
+    /*border: solid 1px blue;*/
+    width: 100%!important;
+    margin: 0 auto;
+}
+	
+.path-mod-icontent .icontent-page .fulltextpage p {
+   /*padding: 0px 9px 0px 0px!important;*/
+    font-size: 0.9em!important;
+    line-height: 1.5em;
+	
+}
+	
+	.path-mod-icontent .icontent-page .fulltextpage {
+    padding: 0px 7px;
+    
+}
+	
 
 
 
