@@ -1417,8 +1417,8 @@ and (min-width : 321px) {
 }	
 	
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
-    position: relative;
-    top: -40px!important;
+   /* position: relative;
+    top: -40px!important;*/
     /*padding: 0 25px 0 95px;*/
     /* padding-right: 25px!important; */
     display: inherit;
@@ -1436,8 +1436,8 @@ and (min-width : 321px) {
 	
 
 	.path-mod-icontent .icontent-page .fulltextpage h3.pagetitle{
-    position: relative;
-    top: -65px!important;
+   /* position: relative;
+    top: -65px!important;*/
     font-size: 16px!important;
     padding-top: 2px;
 }
