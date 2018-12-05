@@ -1058,6 +1058,13 @@ div#idtabicontent {
     padding-right: inherit!important;
     padding-left: inherit!important;
 }
+	div#region-main-box {
+    padding: 0!important;
+}
+	.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
 	
 	div#idicontentpages {
     /*border: solid 1px green;*/
