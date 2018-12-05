@@ -1045,6 +1045,10 @@ div#idtabicontent {
     padding-left: 5px!important;
     padding-right: 5px!important;
 }
+	#header {
+    margin-right: inherit!important;
+    margin-left: inherit!important;
+}
 	
 	div#idicontentpages {
     /*border: solid 1px green;*/
