@@ -1041,6 +1041,10 @@ div#idtabicontent {
     margin: 0 auto!important;
     padding-bottom: 2.5em!important;
 }*/
+	body {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 	
 	div#idicontentpages {
     /*border: solid 1px green;*/
