@@ -250,6 +250,12 @@ div#idicontentpages {
     background-repeat-y: no-repeat!important;
 }
 
+.fulltextpage p a {
+    position: relative;
+    display: block;
+	
+}
+
 
 .path-mod-icontent .icontent-page .fulltextpage {
     margin: 0 auto;
