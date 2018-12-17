@@ -252,7 +252,7 @@ div#idicontentpages {
 
 .fulltextpage p a {
     position: relative;
-    display: inherit;
+    display: inline-block;
 	
 }
 
