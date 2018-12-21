@@ -229,17 +229,8 @@ div#idicontentpages {
 	/* border: solid 1px red; */
 }
 
-
-.path-mod-icontent .icontent-page .fulltextpage li {
-    /* border: solid 1px red; */
-    margin: 15px;
-}
-
-
-
 #cor_padrao {
     display: inline-grid;
-	margin: 0 14px 0 0;
     /* border: solid 1px yellow; */
 }
 
@@ -261,9 +252,8 @@ div#idicontentpages {
 
 .fulltextpage p a {
     position: relative;
-    display: block;
-	width: auto;
-	height: auto;
+    display: inherit;
+	
 }
 
 
@@ -285,14 +275,6 @@ div#idicontentpages {
 }
 
 
-.path-mod-icontent .icontent-page .fulltextpage img {
-    margin-right: 10px;
-    display: flex;
-    max-height: 90%;
-    width: auto;
-    max-width: 69%;
-    margin: 0 auto;
-}
 
 
 
@@ -946,12 +928,11 @@ color:#06d5f8!important
     height: 415px!important;
     overflow: auto!important;
     z-index: 998!important;
-	width: 95%;
-	margin: 0 auto;
-
 }
 	
-		
+	
+	
+	
 	
 	
 	
@@ -1137,14 +1118,11 @@ div#idtabicontent {
 
 	
 .path-mod-icontent .icontent-page .fulltextpage p {
-   /*padding: 0px 20px 0px 0px!important;*/
+   /*padding: 0px 9px 0px 0px!important;*/
     font-size: 0.9em!important;
     line-height: 1.5em;
 	
 }	
-	
-	
-	
 	
 .path-mod-icontent .icontent-page .fulltextpage .toolbarpage {
     position: relative;
