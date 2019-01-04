@@ -503,7 +503,6 @@ div#idnotesarea {
     position: absolute;
     max-width: 50%;
     /*z-index: 998;*/
-	top: 79.5%;
 	z-index: auto;
 }
 
