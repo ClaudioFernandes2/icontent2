@@ -389,7 +389,7 @@ div#idicontentpages {
     font-size: 12px;
     background-color: rgba(17,119,209,.5);
     color: #fff;
-    top: 100px;
+    top: 60px;
     }
 
 /*----Fim da Numeração da página----*/
@@ -503,6 +503,7 @@ div#idnotesarea {
     position: absolute;
     max-width: 50%;
     /*z-index: 998;*/
+	top: 79.5%;
 	z-index: auto;
 }
 
@@ -627,9 +628,11 @@ em.noteon {
     /* position: relative!important; */
     /*min-height: 421px!important;
     max-height: 422px!important;*/
-	height: 360px;
+	/*height: 360px;*/
+	height: 450px;
     overflow: auto!important;
     z-index: 998!important;
+	padding-right: 10px;
 }
 
 /*-------Para definir o título das colunas---------*/
@@ -720,6 +723,10 @@ color:#06d5f8!important
     overflow: hidden;
     font-size: .703125rem;
     background-color: #e9ecef;
+	margin-bottom: 4px;
+	margin-top: 0px!important;
+	position: relative;
+	top: -20px;
 }
 
 .m-t-2, .m-y-2 {
